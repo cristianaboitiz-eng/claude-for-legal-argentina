@@ -92,7 +92,7 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 ### Fuentes primarias
 
 - **CSJN (csjn.gov.ar):** fallos en materia de daños, contratos y responsabilidad civil
-- **CNAC (cnacom.gob.ar):** jurisprudencia de cámaras nacionales - verificar sala
+- **CNAC - Cámara Nacional de Apelaciones en lo Civil:** jurisprudencia civil - acceso vía PJN (pjn.gov.ar) - verificar sala
 - **SCBA (scba.gov.ar):** jurisprudencia PBA
 - **TSJ CABA:** jurisprudencia local
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
