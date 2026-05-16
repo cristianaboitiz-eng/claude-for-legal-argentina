@@ -2,7 +2,23 @@
 
 > Archivo de configuración para el sistema claude-for-legal.
 > Complementa el perfil general (argentina/CLAUDE.md) con lógica específica de práctica concursal.
-> Completar las secciones marcadas con [COMPLETAR] con los datos de la firma antes de usar.
+> **Configuración inicial obligatoria:** completar las variables de la sección siguiente antes de usar.
+
+---
+
+## Configuración inicial - completar antes de usar
+
+**FUERO_HABITUAL:**
+Indicar el fuero donde tramitan habitualmente tus causas concursales. La competencia es de orden público y determina el código procesal y la jurisprudencia aplicable.
+
+Ejemplo: `FUERO_HABITUAL: Fuero nacional comercial (CABA)`
+
+**ROL_PREDOMINANTE:**
+Indicar el rol desde el que actuás con mayor frecuencia. El sistema activa el módulo de análisis correspondiente por defecto.
+
+Ejemplo: `ROL_PREDOMINANTE: Deudor y acreedores quirografarios`
+
+Opciones: deudor / acreedor quirografario / acreedor con privilegio especial / acreedor laboral / síndico / tercero interesado en cramdown
 
 ---
 
@@ -12,8 +28,8 @@ Este perfil cubre práctica concursal argentina: concurso preventivo, acuerdo pr
 
 No aplica doctrinas de common law concursal (Chapter 11, automatic stay en sentido estricto norteamericano, DIP financing como categoría autónoma). Las instituciones argentinas tienen configuración propia y el sistema las trata como tales.
 
-**Fuero habitual:** [COMPLETAR]
-**Rol predominante:** [COMPLETAR: deudor / acreedor / síndico / tercero interesado]
+**FUERO_HABITUAL:** ver sección de configuración inicial
+**ROL_PREDOMINANTE:** ver sección de configuración inicial
 
 ---
 
@@ -52,7 +68,7 @@ El sistema identifica el fuero al inicio de cada consulta. La competencia concur
 
 ### Fuentes primarias
 
-- **CNAC (cnac.gov.ar):** jurisprudencia comercial concursal - verificar sala
+- **CNACOM - Cámara Nacional de Apelaciones en lo Comercial:** jurisprudencia comercial concursal - acceso vía PJN (pjn.gov.ar) - verificar sala
 - **CSJN (csjn.gov.ar):** fallos en materia concursal
 - **SCBA (scba.gov.ar):** jurisprudencia PBA
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
@@ -362,3 +378,9 @@ Alertas específicas:
 - No citar montos mínimos de la LCQ ni honorarios del síndico sin marcador de verificación: se actualizan por ley.
 - En APE: alertar sobre la diferencia con el concurso preventivo y verificar si el deudor ya tiene el acuerdo con la mayoría necesaria antes de recomendar esta vía.
 - Todo escrito concursal cierra con "Estado del escrito" estándar más: fuero y competencia, tipo de proceso (concurso / quiebra / APE), etapa procesal, plazos concursales vigentes con fechas concretas si las hay, privilegio del crédito si es verificación.
+
+---
+
+*Última actualización: mayo 2026*
+*Normativa base: LCQ (Ley 24.522) y modificatorias, Ley 25.589, Ley 26.086, Ley 27.170, LCT (Ley 20.744) en materia de créditos laborales*
+*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
