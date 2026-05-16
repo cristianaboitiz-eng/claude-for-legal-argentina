@@ -2,7 +2,35 @@
 
 > Archivo de configuración para el sistema claude-for-legal.
 > Complementa el perfil general (argentina/CLAUDE.md) con lógica específica de práctica tributaria.
-> Completar las secciones marcadas con [COMPLETAR] con los datos de la firma antes de usar.
+> **Configuración inicial obligatoria:** completar las variables de la sección siguiente antes de usar.
+
+---
+
+## Configuración inicial - completar antes de usar
+
+Estas variables determinan el comportamiento del sistema en cada consulta tributaria. Sin ellas, el sistema operará con supuestos genéricos.
+
+**FUERO_HABITUAL:**
+Indicar el fuero donde tramitan habitualmente tus causas tributarias. Opciones: "TFN + CNACAF", "contencioso administrativo federal", "fuero local CABA (CCAyT)", "provincial - [provincia]", o combinación.
+
+Ejemplo: `FUERO_HABITUAL: TFN y CNACAF`
+
+**PERFIL_CLIENTE:**
+Indicar el tipo de contribuyente predominante en tu cartera. Esto determina qué tributos y procedimientos el sistema prioriza en el análisis.
+
+Ejemplo: `PERFIL_CLIENTE: Empresas PyME, algunos grandes contribuyentes, algunos monotributistas`
+
+**TRIBUTOS_FRECUENTES:**
+Listar los tributos con mayor volumen de trabajo. El sistema los prioriza en el análisis de vigencia y alícuotas.
+
+Ejemplo:
+```
+TRIBUTOS_FRECUENTES:
+- IVA
+- Ganancias personas jurídicas
+- Ingresos brutos (Convenio Multilateral)
+- Seguridad social
+```
 
 ---
 
@@ -12,9 +40,9 @@ Este perfil cubre práctica tributaria argentina: procedimiento ante AFIP (deter
 
 No aplica doctrinas tributarias de common law (IRS assessment procedures, FATCA self-reporting en sentido puro, transfer pricing bajo OECD sin adaptación local). Las instituciones argentinas tienen configuración propia; el sistema las trata como tales.
 
-**Fuero habitual:** [COMPLETAR]
-**Perfil del cliente predominante:** [COMPLETAR: empresa / persona humana / ambos]
-**Tributos con mayor volumen de trabajo:** [COMPLETAR]
+**FUERO_HABITUAL:** ver sección de configuración inicial
+**PERFIL_CLIENTE:** ver sección de configuración inicial
+**TRIBUTOS_FRECUENTES:** ver sección de configuración inicial
 
 ---
 
@@ -59,7 +87,7 @@ Regla operativa: identificar qué dependencia de AFIP tiene competencia antes de
 | Ganancias (personas humanas) | Ley 20.628 y DR Decreto 862/19 |
 | Ganancias (sociedades) | Ley 20.628, arts. 69 y ss. |
 | Bienes Personales | Ley 23.966 Título VI y modificatorias |
-| Ganancia Mínima Presunta | Ley 25.063 - verificar vigencia |
+| Ganancia Mínima Presunta | Ley 25.063 - **DEROGADA** por art. 76 Ley 27.260 con vigencia desde el ejercicio fiscal iniciado el 1° de enero de 2019. No aplica a períodos posteriores. Para períodos anteriores a 2019, puede haber ajustes o litigios pendientes bajo el régimen derogado. |
 | Seguridad social | Ley 24.241 (SIPA), Ley 24.714 (asignaciones), Decreto 814/01 y modificatorias |
 | Impuesto a los débitos y créditos bancarios | Ley 25.413 |
 | Derechos de exportación | CN art. 4 + Ley 27.541 y normas de emergencia |
@@ -320,3 +348,10 @@ Preguntas de diagnóstico:
 - En ingresos brutos, identificar si el contribuyente está bajo Convenio Multilateral antes de analizar la base imponible provincial.
 - No asumir el contenido de actos de AFIP, expedientes o declaraciones juradas sin que el abogado los aporte.
 - Todo escrito cierra con "Estado del escrito" estándar más: tributo y período involucrado, plazo procesal próximo si lo hay, montos con [VERIFICAR VIGENCIA Y MONTO ACTUALIZADO], elección de vía recursiva y fundamento si se tomó esa decisión por defecto.
+
+---
+
+*Última actualización: mayo 2026*
+*Normativa base: Ley 11.683 (LPT), Ley 23.349 (IVA), Ley 20.628 (Ganancias), Ley 27.430 (Régimen Penal Tributario), Convenio Multilateral 18/08/1977*
+*Nota: Ganancia Mínima Presunta (Ley 25.063) derogada desde ejercicio 2019 (art. 76 Ley 27.260)*
+*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
