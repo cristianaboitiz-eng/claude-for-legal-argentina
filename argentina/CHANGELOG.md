@@ -28,6 +28,31 @@ No esperar a la revisión periódica.
 
 ## 2026
 
+### Mayo 2026 - Sincronización README con fuentes.md (Etapa 9)
+
+**Archivos modificados:**
+- `argentina/README.md` - sección "Fuentes normativas (fase 2)" reescrita para reflejar el estado actual de `fuentes.md`: tabla de conectores expandida de 4 a 6 entradas (agregados FalloBot como conector 5 y SCBA/JUBA como conector 6); agregada tabla de decisión rápida por necesidad; agregada tabla de fuentes primarias sin conector MCP (InfoLEG, normas.gba.gob.ar, SAIJ, PJN, CNACAF, SCBA, JUBA, PTN, AAIP, IGJ, DPPJ, TFN, BCRA); párrafo de cierre actualizado con referencia a `fuentes.md` para instrucciones completas
+
+**Normas afectadas:** ninguna. Cambio de documentación.
+
+**Impacto en conectores:** ninguno. El cambio es de visibilidad: FalloBot y normas.gba.gob.ar ya estaban en `fuentes.md`; ahora también figuran en el README.
+
+---
+
+### Mayo 2026 - Actualización de fuentes y conectores (Etapa 8)
+
+**Archivos modificados:**
+- `argentina/fuentes.md` - agregado conector 5 (FalloBot, `https://api.fallobot.com/mcp`): conector MCP disponible con cobertura simultánea de CSJN, SAIJ, JUBA y SCBA en tiempo real; requiere plan Pro; tabla de decisión actualizada para incluirlo como opción principal para jurisprudencia CSJN y PBA; actualizada la entrada SCBA con nota sobre expansión de cobertura JUBA (Acuerdo 4011 / Resolución RP 1651/24: Cámaras PBA desde marzo 2025, primera instancia desde junio 2025); agregado `normas.gba.gob.ar` en tabla de fuentes primarias como equivalente bonaerense de InfoLEG para normativa provincial PBA (leyes, decretos, códigos provinciales - sin API pública, acceso por fallback manual; aclaración: "Malvinas Argentinas" es el nombre del sistema, no la jurisdicción; la fuente es del Gobierno de la Provincia de Buenos Aires); agregado JUBA como entrada independiente en la tabla de fuentes primarias; numeración de conectores actualizada (SCBA pasa a ser conector 6)
+
+**Normas afectadas:** ninguna. Los cambios son de conectores y fuentes de referencia.
+
+**Impacto en conectores:**
+- FalloBot: nuevo conector disponible (plan Pro) - cubre CSJN y PBA que antes no tenían conector MCP
+- normas.gba.gob.ar: nueva fuente primaria de fallback para normativa provincial PBA
+- SCBA/JUBA: cobertura ampliada a partir de 2025 por el Acuerdo 4011
+
+---
+
 ### Mayo 2026 - Correcciones segunda auditoría (Etapa 6)
 
 **Archivos modificados:**

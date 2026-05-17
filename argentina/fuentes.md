@@ -136,22 +136,52 @@ Limitaciones:
 
 ---
 
-### 5. SCBA - Jurisprudencia PBA
+### 5. FalloBot - CSJN + SAIJ + JUBA + SCBA
 
-**Estado:** conector no disponible actualmente en la comunidad. Ver fuentes directas abajo.
+**Endpoint MCP:** `https://api.fallobot.com/mcp`
+**Fuentes consultadas en paralelo:** CSJN, SAIJ, JUBA (sistema de jurisprudencia PBA) y SCBA
+**Función:** búsqueda en lenguaje natural en todas las fuentes oficiales argentinas simultáneamente. Cada resultado enlaza al fallo original en la fuente oficial. No almacena copias: cada búsqueda va directo a la fuente.
+**Requisito:** cuenta en fallobot.com con plan Pro. La integración con Claude se configura en Configuración → Conectores → Agregar conector personalizado → pegar la URL del endpoint.
+**Estado al mayo 2026:** activo y documentado en https://fallobot.com
+
+Casos de uso:
+- Buscar jurisprudencia de CSJN sin acceso directo a sj.csjn.gov.ar
+- Buscar fallos SCBA y de cámaras de apelación PBA (JUBA)
+- Consultas cruzadas multifuente en una sola operación
+- Verificación de citas jurisprudenciales en escritos aportados
+
+Limitaciones:
+- Requiere plan pago (plan Pro)
+- No reemplaza la verificación del texto completo del fallo antes de citar
+- La cobertura de instancias inferiores PBA está en expansión (ver nota sobre SCBA abajo)
+
+**Fallback:** acceso directo a cada fuente por separado (ver tabla de fuentes primarias al final de este archivo).
+
+---
+
+### 6. SCBA - Jurisprudencia PBA
+
+**Estado:** conector MCP de fuente abierta no disponible. FalloBot (conector 5) cubre SCBA vía JUBA. Ver también fuentes directas abajo.
 
 La Suprema Corte de Justicia de la Provincia de Buenos Aires (SCBA) tiene
 jurisprudencia relevante especialmente en materia laboral, civil y administrativo
-provincial que no está cubierta por ninguno de los conectores anteriores.
+provincial que no está cubierta por conectores de fuente abierta.
 
-**Alternativa mientras no hay conector MCP:**
+**Expansión de cobertura JUBA (Acuerdo 4011 / Resolución RP 1651/24):**
+La SCBA implementó publicidad total de sentencias en etapas:
+- Desde marzo 2025: Cámaras de Apelación provinciales y Tribunal de Casación Penal
+- Desde junio 2025: juzgados de primera instancia civiles, laborales y contencioso administrativos
+
+Esto aumenta significativamente la cobertura que FalloBot (conector 5) puede acceder vía JUBA en tiempo real.
+
+**Alternativa directa mientras no hay conector MCP de fuente abierta:**
 Acceder directamente a https://scba.gov.ar/jurisprudencia/ y pegar el texto
 del fallo en la sesión para que el sistema lo procese. Indicar siempre:
 sala, fecha, carátula y número de expediente.
 
 **Para quien quiera desarrollar el conector:**
-La SCBA tiene una API de consulta pública. La contribución de un conector MCP
-que apunte a esa API sería la de mayor impacto para práctica bonaerense.
+La SCBA tiene acceso programático a JUBA. La contribución de un conector MCP
+de fuente abierta sería la de mayor impacto para práctica bonaerense.
 
 ---
 
@@ -160,8 +190,11 @@ que apunte a esa API sería la de mayor impacto para práctica bonaerense.
 | Necesidad | Conector recomendado | Alternativa |
 |---|---|---|
 | Verificar texto de una norma nacional | 1 (Ansvar) | InfoLEG directo |
+| Verificar texto de una norma provincial PBA | Sin conector MCP | normas.gba.gob.ar directo |
+| Buscar jurisprudencia CSJN | 5 (FalloBot, plan Pro) | sj.csjn.gov.ar directo |
 | Buscar jurisprudencia CABA / fueros nacionales | 2 (Psflores) | PJN directo |
-| Buscar jurisprudencia PBA | Sin conector | SCBA directo |
+| Buscar jurisprudencia PBA (SCBA y cámaras) | 5 (FalloBot, plan Pro) | JUBA / SCBA directo |
+| Buscar jurisprudencia multifuente simultánea | 5 (FalloBot, plan Pro) | Fuentes por separado |
 | Análisis semántico / terminología | 3 (guidobonomini) | - |
 | Mejorar búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | SAIJ directo |
 
@@ -204,10 +237,12 @@ hay discrepancia con cualquier conector.
 | Fuente | URL | Uso principal |
 |---|---|---|
 | InfoLEG | infoleg.gob.ar | Texto oficial de normas nacionales |
+| normas.gba.gob.ar | normas.gba.gob.ar | Texto oficial de normas provinciales PBA: leyes, decretos, decretos-ley, resoluciones, disposiciones, Constitución PBA, códigos provinciales (CPCCBA, CPPBA, CPL PBA, Código Fiscal, etc.). Sistema de Información Normativa y Documental del Gobierno de la Provincia de Buenos Aires. Sin API pública documentada: acceso por búsqueda web o URL directa por número de norma. |
 | SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial |
 | PJN | pjn.gov.ar | Acordadas y jurisprudencia federal |
 | CNACAF | cnacaf.gov.ar | Jurisprudencia contencioso administrativo federal y alzada tributaria |
 | SCBA | scba.gov.ar | Jurisprudencia PBA - fuente primaria bonaerense |
+| JUBA | juba.scba.gov.ar | Sistema de consulta de jurisprudencia PBA (SCBA + cámaras + primera instancia desde 2025) |
 | Poder Judicial CABA | buenosaires.gob.ar/jusbaires | Jurisprudencia fuero local CABA |
 | PTN | ptn.gov.ar | Dictámenes de la Procuración del Tesoro de la Nación - responsabilidad del Estado y empleo público |
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |
