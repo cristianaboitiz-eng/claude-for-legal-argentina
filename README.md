@@ -161,10 +161,16 @@ Conectores de la comunidad que apuntan directamente a las fuentes oficiales arge
 | 2 | [Psflores/Legal-MCP-Server-](https://github.com/Psflores/Legal-MCP-Server-) | PJN / CABA | Jurisprudencia fueros nacionales | Gratuito |
 | 3 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial | Gratuito |
 | 4 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica | Gratuito |
-| 5 | [voftec/normativapba-mcp](https://github.com/voftec/normativapba-mcp) | normas.gba.gob.ar | Legislación provincial PBA: búsqueda, vigencia, articulado, árbol de dependencias normativas. Instalable vía npx. | Gratuito |
+| 5 | [voftec/normativapba-mcp](https://github.com/voftec/normativapba-mcp) · `https://normativapba-mcp.vercel.app` | normas.gba.gob.ar | Legislación provincial PBA: búsqueda, vigencia, articulado, árbol de dependencias normativas. Conexión directa vía URL en Claude.ai (Settings → Integrations) o instalable vía npx. Consulta en tiempo real sobre el portal oficial. Ver nota de limitación abajo. | Gratuito |
 | 6 | [joaquinescalante23/saij-mcp](https://github.com/joaquinescalante23/saij-mcp) | SAIJ | Investigación profunda: jurisprudencia, legislación, doctrina y dictámenes; grafo legal; OCR para PDFs históricos; resolución de citas textuales. Opera sobre API no oficial de SAIJ - verificar estado antes de usar. | Gratuito |
 | 7 | `https://api.fallobot.com/mcp` | CSJN · SAIJ · JUBA · SCBA | Búsqueda multifuente simultánea en lenguaje natural; enlaza al fallo original en la fuente oficial | Plan Pro (fallobot.com) |
 | 8 | SCBA / JUBA | Jurisprudencia PBA | Sin conector MCP de fuente abierta; cubierto por FalloBot (7). Ver instrucciones de acceso directo en `fuentes.md` | — |
+
+#### Nota sobre el conector 5 (voftec/normativapba-mcp) - `verificar_vigencia`
+
+La herramienta `verificar_vigencia` consulta en tiempo real los metadatos de `normas.gba.gob.ar` y reproduce su estado tal como está cargado en el portal. El portal puede contener errores en las relaciones de derogación. Caso conocido: la Ley 11.922 (CPP Bonaerense, 1997) figura en el portal como derogada por la Ley/Decreto-ley 9032 (1978), cuando la relación es inversa: la 11.922 deroga a la 9032 y está plenamente vigente con modificatorias.
+
+Regla de uso: `verificar_vigencia` es un primer filtro, no una fuente definitiva. Ante cualquier resultado de derogación que parezca anómalo, verificar contra el Boletín Oficial PBA o el texto actualizado disponible en el propio portal. El error fue reportado al mantenedor del conector y a la Subsecretaría Legal y Técnica de PBA para corrección en la fuente.
 
 ### Tabla de decisión rápida
 
