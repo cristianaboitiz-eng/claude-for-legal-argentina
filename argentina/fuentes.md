@@ -38,7 +38,7 @@ conector no estaba disponible.
 | 2 - Psflores (PJN/CABA) | Jurisprudencia fueros nacionales | Acceder a pjn.gov.ar o buenosaires.gob.ar/jusbaires y pegar el fallo en la sesión |
 | 3 - guidobonomini | Análisis semántico / glosario | Operar con el glosario del CLAUDE.md argentino; la calidad terminológica puede bajar |
 | 4 - Tesauro SAIJ | Vocabulario jurídico | Usar terminología estándar del CCCN y LCT directamente |
-| 5 - voftec (normas PBA) | Legislación provincial PBA | normas.gba.gob.ar acceso directo sin conector |
+| 5 - voftec (normas PBA) | Legislación provincial PBA | normas.gba.gob.ar acceso directo sin conector. Si `verificar_vigencia` devuelve un resultado anómalo, verificar contra el Boletín Oficial PBA. |
 | 6 - joaquinescalante23 (SAIJ) | Investigación profunda en SAIJ: jurisprudencia, legislación, doctrina, dictámenes | saij.gob.ar acceso directo sin conector |
 | 7 - FalloBot | Jurisprudencia multifuente CSJN + SAIJ + JUBA + SCBA | Acceder a cada fuente por separado; ver tabla de fuentes primarias |
 | SCBA | Jurisprudencia PBA | Acceder a scba.gov.ar/jurisprudencia y pegar el fallo en la sesión |
@@ -142,14 +142,14 @@ Limitaciones:
 ### 5. voftec/normativapba-mcp
 
 **Repositorio:** https://github.com/voftec/normativapba-mcp
-**Fuente:** normas.gba.gob.ar (Sistema de Información Normativa PBA)
+**URL directa (Claude.ai):** https://normativapba-mcp.vercel.app
+**Fuente:** normas.gba.gob.ar (Sistema de Información Normativa "Malvinas Argentinas" - Subsecretaría Legal y Técnica de PBA)
 **Función:** Conector para legislación provincial de la Provincia de Buenos Aires.
 Accede en tiempo real a normas.gba.gob.ar: leyes, decretos, resoluciones y
-disposiciones PBA. Verifica vigencia, extrae articulado y construye árboles de
-dependencia normativa (qué modifica, qué deroga, qué reglamenta). Instalable
-directamente vía npx sin necesidad de clonar ni compilar el repositorio.
-**Estado al mayo 2026:** proyecto de la comunidad sin mantenimiento activo declarado.
-Verificar estado antes de usar (ver instrucciones arriba).
+disposiciones PBA desde 1813 hasta la actualidad. Verifica vigencia, extrae articulado y construye árboles de
+dependencia normativa (qué modifica, qué deroga, qué reglamenta).
+**Instalación:** conexión directa vía URL en Claude.ai (Settings → Integrations → Add MCP Server → pegar la URL) sin necesidad de Node.js ni npx. También instalable vía npx para Claude Code / Claude Cowork.
+**Estado al mayo 2026:** verificado activo. Probado con búsqueda, texto completo y verificación de vigencia.
 
 Herramientas disponibles:
 
@@ -173,10 +173,17 @@ Casos de uso:
 
 Limitaciones:
 - Solo normas provinciales PBA (no normas nacionales ni de otras provincias)
-- Requiere Node.js instalado para la instalación vía npx
-- Nota operativa: el README documenta la necesidad de deshabilitar validación SSL
+- Instalación vía npx requiere Node.js; la conexión directa vía URL no tiene ese requisito
+- Nota operativa (npx): el README documenta la necesidad de deshabilitar validación SSL
   (`NODE_TLS_REJECT_UNAUTHORIZED: 0`) para resolver certificados vencidos en el
   portal gubernamental; evaluar según política de seguridad del entorno
+- **Limitación crítica - `verificar_vigencia`:** la herramienta reproduce el estado de vigencia
+  tal como está cargado en `normas.gba.gob.ar`, incluyendo sus errores. Caso conocido y
+  reportado: la Ley 11.922 (CPP Bonaerense, 1997) figura en el portal como derogada por la
+  Ley/Decreto-ley 9032 (1978), cuando la relación es inversa. `verificar_vigencia` es un
+  primer filtro, no una fuente definitiva. Ante resultados de derogación anómalos, verificar
+  contra el Boletín Oficial PBA o el texto actualizado disponible en el portal.
+  El error fue reportado al mantenedor del conector y a la Subsecretaría Legal y Técnica de PBA.
 
 **Fallback:** normas.gba.gob.ar acceso directo sin conector.
 
@@ -371,6 +378,15 @@ hay discrepancia con cualquier conector.
 ---
 
 ## Instalación de conectores MCP
+
+**En Claude.ai (conexión directa vía URL):**
+Algunos conectores exponen un endpoint público que permite la conexión sin instalación local:
+1. Ir a Settings → Integrations → Add MCP Server
+2. Pegar la URL del endpoint del conector (ej. `https://normativapba-mcp.vercel.app` para el conector 5)
+3. Confirmar y verificar que el conector aparezca activo
+4. Hacer una consulta de prueba antes de usar en sesión real
+
+Este método no requiere Node.js ni configuración local. Es el método recomendado para el conector 5 (voftec).
 
 **En Claude Cowork (aplicación de escritorio):**
 1. Abrir Claude Cowork
