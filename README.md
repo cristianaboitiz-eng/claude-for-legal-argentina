@@ -35,6 +35,8 @@ argentina/
   fuentes.md                        # Conectores MCP y fuentes primarias
   macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
+  evals/                            # Casos de control para verificar perfiles de área
+    README.md                       # Formato estándar y áreas prioritarias
 ```
 
 ---
@@ -404,6 +406,8 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 **Para proponer mejoras o nuevas áreas**, abrí un issue describiendo qué querés sumar y con qué alcance. Si querés adaptar el perfil para otra jurisdicción (Uruguay, Chile, Colombia), forkéalo y avisame.
 
 **Para contribuir directamente**, editá el archivo en tu fork y abrí un Pull Request describiendo el cambio. Si no sabés cómo, mandame el texto por mensaje y lo incorporo yo con la atribución correspondiente. Los cambios con fuente normativa citada se procesan primero.
+
+**Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales, prescripción laboral y vicios formales en contratos. Ver `evals/README.md` para el formato completo.
 
 ---
 
