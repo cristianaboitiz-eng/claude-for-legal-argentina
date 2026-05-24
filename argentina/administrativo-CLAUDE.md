@@ -42,10 +42,17 @@ No aplica doctrinas de common law administrativo (judicial review anglosajón, s
 
 ### Fuero contencioso administrativo y tributario CABA
 
-- **Código:** Ley 189 CABA (Código Contencioso Administrativo y Tributario - CCAyT) y Ley 2145 CABA (amparo)
+**Distinción critica - dos cuerpos normativos distintos:**
+- **Procedimiento administrativo CABA (en sede administrativa):** Decreto 1510/97 (LPA CABA) - texto consolidado por Ley 6764/24 (5ta actualizacion del Digesto Juridico CABA, BO 18-dic-2024). Cubre el tramite ante la Administracion antes de agotar la via.
+- **Control judicial contencioso administrativo CABA:** Ley 189 CABA (Codigo Contencioso Administrativo y Tributario - CCAyT). Cubre la accion judicial una vez agotada la via administrativa.
+- **Amparo CABA:** Ley 2145 CABA.
+
+No confundir Dec 1510/97 (procedimiento en sede administrativa) con Ley 189 (control judicial): son cuerpos legales distintos que cubren etapas distintas del conflicto.
+
 - **Juzgados:** Juzgados de Primera Instancia en lo Contencioso Administrativo y Tributario CABA
-- **Alzada:** Cámara de Apelaciones en lo Contencioso Administrativo y Tributario CABA
-- Regla operativa: el CCAyT tiene reglas propias de admisibilidad, plazos y legitimación que difieren sustancialmente del régimen federal
+- **Alzada:** Camara de Apelaciones en lo Contencioso Administrativo y Tributario CABA (tres salas)
+- **Tribunal Superior:** TSJCABA - recurso de inconstitucionalidad
+- Regla operativa: el CCAyT (Ley 189) tiene reglas propias de admisibilidad, plazos y legitimacion que difieren sustancialmente del regimen federal. El Dec 1510/97 regula el procedimiento previo ante la Administracion.
 
 ### PBA
 
@@ -65,13 +72,32 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 
 *Última verificación de esta sección: mayo 2026. Actualizar cuando cambie alguna de las normas listadas.*
 
-### Plazos de caducidad de la acción contenciosa
-Los plazos para impugnar actos administrativos (art. 25 LNPA a nivel nacional)
-son breves y fatales. No asumir plazos sin verificar el fuero y el acto concreto.
+### Plazos de caducidad de la accion contenciosa
+Los plazos para impugnar actos administrativos son breves y fatales.
+No asumir plazos sin verificar el fuero, el acto concreto y la fecha del acto.
 
-Regla operativa: ante cualquier consulta sobre impugnación de acto administrativo:
+**REFORMA LEY 27.742 (vigente desde 9-jul-2024):** el art. 25 LNPA fue modificado por la Ley 27.742 (Bases). El plazo de caducidad se duplico de 90 a 180 dias habiles judiciales para actos notificados desde el 9-jul-2024.
+
+Regla operativa: ante cualquier consulta sobre impugnacion de acto administrativo federal, verificar la fecha del acto antes de aplicar el plazo:
 ```
-[ALERTA PLAZO FATAL: art. 25 LNPA - 90 días hábiles judiciales - notificación del acto que agota la vía - vencimiento: calcular]
+[ALERTA PLAZO FATAL: art. 25 LNPA - verificar fecha del acto:
+- Acto notificado PRE-9-jul-2024: 90 dias habiles judiciales (regimen original)
+- Acto notificado POST-9-jul-2024: 180 dias habiles judiciales (reformado por Ley 27.742)
+- En ambos casos: desde notificacion del acto que agota la via - vencimiento: calcular]
+```
+
+### Silencio administrativo - regla reformada (Ley 27.742)
+
+**REFORMA LEY 27.742 (vigente desde 9-jul-2024):** el art. 10 LNPA fue modificado. La regla del silencio negativo ya no es el unico supuesto.
+
+- **Silencio POSITIVO (regla nueva para autorizaciones regladas):** cuando una norma exige autorizacion administrativa para que el particular realice una conducta o acto dentro de facultad reglada de la Administracion, vencido el plazo sin resolucion expresa, el silencio tiene sentido POSITIVO. Plazo subsidiario: 60 dias si la norma especial no fija plazo.
+- **Reglamentacion:** Decreto 971/2024 (1-nov-2024). Anexo I: procedimientos EXCLUIDOS del silencio positivo. Anexo II: procedimientos INCLUIDOS. Implementacion via Plataforma TAD (admin centralizada desde 1-nov-2024, descentralizada desde 1-dic-2024).
+- **Silencio NEGATIVO (regla residual):** para procedimientos no incluidos en Anexo II o expresamente excluidos en Anexo I: vencido el plazo se tiene por denegado y corre el plazo para recurrir.
+- **Actos pre-9-jul-2024:** aplica regla original (denegatoria tacita default).
+
+Regla operativa: ante silencio de la Administracion, verificar si el procedimiento figura en Anexo I (excluido) o Anexo II (incluido) del Decreto 971/2024 antes de determinar el efecto del silencio.
+```
+[VERIFICAR EFECTO DEL SILENCIO: consultar Decreto 971/2024 Anexo I y II - silencio positivo o negativo segun procedimiento]
 ```
 
 ### Normativa de contrataciones del Estado
@@ -84,9 +110,10 @@ impugnación de pliegos o recursos ante organismos de control.
 ```
 
 ### CABA y PBA: normativa local
-La normativa de procedimiento administrativo de CABA (Ley 189) y PBA
+La normativa de procedimiento administrativo de CABA (Decreto 1510/97 LPA CABA, consolidado por Ley 6764/24) y PBA
 (Decreto-Ley 7647/70) tiene vida propia y se modifica independientemente
 de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones.
+En CABA distinguir siempre: Dec 1510/97 (procedimiento en sede administrativa) de Ley 189 CCAyT (control judicial posterior).
 ```
 [VERIFICAR FUERO Y CÓDIGO APLICABLE: no asumir equivalencia entre procedimiento
  administrativo nacional, CABA y PBA]
@@ -99,8 +126,17 @@ de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones
 ### Procedimiento administrativo nacional
 
 - **Ley 19.549 (LNPA)** y modificatorias: fuente principal del procedimiento administrativo federal
-- **Decreto 1759/72 (RLNPA)** y modificatorias: reglamentación operativa
-- Principios del procedimiento administrativo: informalismo, impulsión de oficio, celeridad, economía, sencillez, eficacia
+- **Decreto 1759/72 (RLNPA)** y modificatorias: reglamentacion operativa
+- **Ley 27.742 (Bases y Puntos de Partida para la Libertad de los Argentinos, BO 9-jul-2024):** reforma integral de la LNPA. Cambios principales:
+  - Art. 25 LNPA: plazo de caducidad de la accion contenciosa duplicado de 90 a **180 dias habiles judiciales** (actos notificados post-9-jul-2024)
+  - Art. 10 LNPA: silencio administrativo reformado - regla de silencio positivo para autorizaciones regladas (ver seccion "Silencio administrativo")
+  - Art. 1 LNPA reformado: ambito de aplicacion expandido a Poder Legislativo, Poder Judicial y Ministerio Publico en ejercicio de funcion materialmente administrativa
+  - Art. 1 bis LNPA (nuevo): ocho principios incorporados: legalidad, razonabilidad, proporcionalidad, buena fe, confianza legitima, transparencia, simplificacion administrativa, buena administracion
+  - Art. 23 inc. d LNPA reformado: plazos para recursos administrativos elevados a minimo 30 dias (antes 10/15 dias segun el tipo)
+  - Art. 24 LNPA reformado: impugnacion de reglamentos - reclamo previo impropio con excepciones (amparo, DNU, decretos delegados)
+- **Decreto 971/2024 (1-nov-2024):** reglamentacion del silencio positivo. Anexo I (procedimientos excluidos) + Anexo II (procedimientos incluidos). Implementacion via Plataforma TAD.
+- **Decreto 1091/2024 (13-dic-2024):** modifica Regimen de Contrataciones del Estado (Decreto 1023/01). Restringe contratacion directa, especialmente con Universidades Nacionales.
+- Principios del procedimiento administrativo (texto vigente post-reforma): informalismo, impulsion de oficio, celeridad, economia, sencillez, eficacia + ocho nuevos principios Ley 27.742 art. 1 bis.
 
 ### Responsabilidad del Estado
 
@@ -109,14 +145,29 @@ de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones
 - **Responsabilidad contractual del Estado:** se rige por el régimen de contratación pública y las cláusulas contractuales
 - Regla operativa: si la demanda es contra el Estado nacional, nunca aplicar el CCCN en materia de responsabilidad extracontractual. Usar la Ley 26.944. Para provincias, verificar si tienen ley propia o aplican principios generales del derecho administrativo.
 
-### Contratación pública
+### Contratacion publica
 
-- **Decreto 1023/01 (Régimen de Contrataciones de la Administración Nacional)** y modificatorias
-- **Decreto 1030/16 (Reglamento del Régimen de Contrataciones)** y modificatorias
+- **Decreto 1023/01 (Regimen de Contrataciones de la Administracion Nacional)** y modificatorias
+- **Decreto 1030/16 (Reglamento del Regimen de Contrataciones)** y modificatorias
+- **Decreto 1091/2024 (13-dic-2024):** modifica el Decreto 1023/01. Restringe la contratacion directa, en especial con Universidades Nacionales. Verificar texto vigente antes de analizar cualquier procedimiento de contratacion directa.
 - **Resoluciones ONC:** normas complementarias de la Oficina Nacional de Contrataciones
-- **Ley 13.064 (obra pública nacional):** contrato de obra pública, certificados, variaciones de costo
-- **Ley 17.520 (concesión de obra pública)**
-- Regla operativa: verificar el régimen específico que rige la contratación (licitación pública, privada, contratación directa, convenio marco) antes de analizar el incumplimiento.
+- **Ley 13.064 (obra publica nacional):** contrato de obra publica, certificados, variaciones de costo
+- **Ley 17.520 (concesion de obra publica)** y modificaciones introducidas por **Ley 27.742 Cap VI** [VERIFICAR VIGENCIA: Ley 27.742 modifico Ley 17.520]
+- Regla operativa: verificar el regimen especifico que rige la contratacion (licitacion publica, privada, contratacion directa, convenio marco) antes de analizar el incumplimiento. Ante contratacion directa post-13-dic-2024, verificar Decreto 1091/2024.
+
+### RIGI - Regimen de Incentivo a las Grandes Inversiones
+
+- **Ley 27.742 Titulo VII (Cap VII)** + **Decreto 749/2024 (23-ago-2024)**
+- Regimen voluntario de incentivos para **Vehiculos de Proyecto Unico (VPU)** con estabilidad juridica, fiscal, aduanera y cambiaria por 30 anos.
+- **Sectores admisibles:** forestal, turismo, infraestructura, mineria, tecnologia, siderurgia, energia, petroleo y gas.
+- **Requisito minimo:** inversion en activo computable superior a USD 200 millones (con escala por sector) + plan de inversion aprobado por el Comite Evaluador RIGI.
+- **VPU:** figura con objeto unico limitado al proyecto aprobado. Sociedades existentes pueden adaptarse via art. 169 Ley 27.742.
+- **Registros creados:** Registro de VPU + Registro de Proyectos Estrategicos Exportacion Largo Plazo + Registro de Proveedores del Regimen (Decreto 749/2024).
+- **Beneficios:** estabilidad normativa 30 anos, Ganancias reducida, IVA, deducciones aceleradas, regimen cambiario especial (acceso MULC, repatriacion de utilidades), arancel cero insumos/bienes de capital, arbitraje internacional (CIADI o UNCITRAL).
+- Regla operativa: el RIGI es opcional pero excluyente - si el VPU adhiere, queda excluido de otros regimenes de promocion. La estabilidad NO cubre derechos economicos, regalias mineras ni derechos aduaneros transitorios.
+```
+[VERIFICAR VIGENCIA: RIGI - Ley 27.742 Cap VII + Decreto 749/2024 + resoluciones sectoriales posteriores del Ministerio de Economia]
+```
 
 ### Empleo público
 
@@ -133,7 +184,15 @@ de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones
 - **Ley 25.188 (Ética en la Función Pública)**
 - **Ley 27.275 (Acceso a la Información Pública)**
 
-### Fuentes primarias
+### Normativa CABA especifica
+
+- **Decreto 1510/97 (LPA CABA):** procedimiento administrativo en sede administrativa CABA. Texto consolidado por **Ley 6764/24** (5ta actualizacion del Digesto Juridico CABA, BO 18-dic-2024). Articulado clave paralelo al art. 7 LNPA federal.
+- **Ley 189 CCAyT:** control judicial contencioso administrativo y tributario CABA.
+- **Ley 2145:** amparo CABA.
+- **Ley 2095 (contratacion publica CABA)** y modificatorias. Plataforma BAC (Buenos Aires Compras, art. 83) + Decreto 129/23 reglamentario.
+- **Ley 471 (relaciones laborales en la Administracion Publica CABA):** regimen de empleo publico CABA. Paralelo al MREP Ley 25.164 federal pero con diferencias sustanciales.
+- **Procuracion General CABA:** dictamenes obligatorios en materias previstas por la Constitucion CABA art. 134 y Ley organica de la PG.
+- **Responsabilidad del Estado CABA:** no existe ley local equivalente a la Ley 26.944 nacional. Criterio jurisprudencial propio del TSJ CABA. No aplicar Ley 26.944 a demandas contra el GCBA sin advertencia.
 
 - **CSJN (csjn.gov.ar):** fallos en materia administrativa
 - **CNACAF:** jurisprudencia del fuero contencioso administrativo federal
@@ -374,14 +433,21 @@ Alertas específicas:
 
 **Este es el primer paso en toda consulta que involucre una acción judicial contra el Estado nacional.**
 
-El plazo para demandar judicialmente al Estado nacional es de **90 días hábiles judiciales** desde la notificación del acto que agota la vía administrativa (art. 25 LNPA). Es un plazo de **caducidad**, no de prescripción:
-- No se suspende ni interrumpe por las mismas causales que la prescripción
-- Vencido el plazo, la acción caduca y no puede ejercerse aunque el derecho de fondo esté vigente
+El plazo para demandar judicialmente al Estado nacional es un plazo de **caducidad**, no de prescripcion:
+- No se suspende ni interrumpe por las mismas causales que la prescripcion
+- Vencido el plazo, la accion caduca y no puede ejercerse aunque el derecho de fondo este vigente
 - La caducidad puede declararse de oficio
 
-Antes de analizar cualquier otra cuestión en una consulta sobre acción contenciosa federal, emitir:
+**REFORMA LEY 27.742:** el plazo del art. 25 LNPA fue modificado. Verificar fecha del acto antes de aplicar plazo:
+- Acto notificado PRE-9-jul-2024: **90 dias habiles judiciales** (regimen original)
+- Acto notificado POST-9-jul-2024: **180 dias habiles judiciales** (Ley 27.742)
+
+Antes de analizar cualquier otra cuestion en una consulta sobre accion contenciosa federal, emitir:
 ```
-[ALERTA PLAZO FATAL: art. 25 LNPA - 90 días hábiles judiciales - notificación del acto que agota la vía - vencimiento: calcular]
+[ALERTA PLAZO FATAL: art. 25 LNPA - verificar fecha del acto:
+- PRE-9-jul-2024: 90 dias habiles judiciales
+- POST-9-jul-2024: 180 dias habiles judiciales (Ley 27.742)
+- Desde notificacion del acto que agota la via - vencimiento: calcular]
 ```
 
 En CABA (CCAyT): el plazo varía según el tipo de acción; verificar el código local antes de aplicar el plazo federal por analogía.
@@ -400,6 +466,7 @@ En PBA: verificar el Código Procesal Contencioso Administrativo PBA (Ley 12.008
 
 ---
 
-*Última actualización: mayo 2026*
-*Normativa base: LNPA (Ley 19.549), Decreto 1759/72, Ley 26.944, Ley 25.164, Decreto 1023/01*
+*Ultima actualizacion: mayo 2026*
+*Normativa base: LNPA (Ley 19.549 reformada por Ley 27.742), Decreto 1759/72, Ley 26.944, Ley 25.164, Decreto 1023/01 (mod. Decreto 1091/2024), Decreto 971/2024 (silencio positivo), RIGI Ley 27.742 Cap VII + Decreto 749/2024*
+*Incorpora audit de gaps post-reforma 2024: Diego Fernandez - Sovra (mayo 2026)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
