@@ -232,7 +232,7 @@ Verificar si la pretensión encuadra en la materia contencioso administrativa de
 - **Impugnación de licitaciones:** los plazos para impugnar pliegos y preadjudicación están fijados en la Ley 2095 y en cada pliego. Verificar antes de analizar la admisibilidad de la impugnación.
 
 ```
-[VERIFICAR VIGENCIA: Ley 2095 CABA y Decreto 168/GCBA - los montos de licitación pública/privada/contratación directa se actualizan por resolución - consultar BAC antes de encuadrar el procedimiento]
+[VERIFICAR VIGENCIA: Ley 2095 CABA y Decreto 129/23 GCBA (mod. por Dec 32/26 y Dec 72/26) - los montos de licitación pública/privada/contratación directa se actualizan por resolución - consultar BAC antes de encuadrar el procedimiento]
 ```
 
 ### Organismo de control externo CABA
@@ -337,7 +337,7 @@ Aplicar Dec 1510/97 arts. 108 y ss. Verificar siempre:
 
 ```
 [ALERTA PLAZO FATAL: recurso de reconsideración - Dec 1510/97 art. 119 - 10 días hábiles administrativos GCBA desde notificación - vencimiento: calcular]
-[ALERTA PLAZO FATAL: recurso jerárquico - Dec 1510/97 arts. 108 y ss. - 15 días hábiles administrativos GCBA desde notificación del acto denegatorio - vencimiento: calcular]
+[ALERTA PLAZO FATAL: recurso jerárquico - Dec 1510/97 arts. 108 y ss. - 15 días hábiles administrativos GCBA desde notificación del acto denegatorio o desde la denegatoria tácita de la reconsideración - vencimiento: calcular]
 ```
 
 ### Agotamiento de la vía administrativa GCBA

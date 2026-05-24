@@ -100,6 +100,20 @@ Regla operativa: ante silencio de la Administracion, verificar si el procedimien
 [VERIFICAR EFECTO DEL SILENCIO: consultar Decreto 971/2024 Anexo I y II - silencio positivo o negativo segun procedimiento]
 ```
 
+### Plazos de recursos administrativos - reforma Ley 27.742 + Decreto 695/2024
+
+**REFORMA (vigente desde 9-jul-2024):** la Ley 27.742 reformó el art. 23 inc. d LNPA fijando un minimo de 30 dias habiles para los recursos que agotan la via administrativa. El Decreto 695/2024 (reglamentacion del Titulo II "Reforma del Estado" de la Ley 27.742, modificatorio del Decreto 1759/72) duplico los plazos del RLNPA:
+- Reconsideracion (art. 84 RLNPA): 10 dias → **20 dias habiles administrativos**
+- Jerarquico (arts. 89-92 RLNPA): 15 dias → **30 dias habiles administrativos**
+- Alzada (arts. 94-98 RLNPA): 15 dias → **30 dias habiles administrativos**
+
+Distincion dogmatica: el piso de 30 dias del art. 23 inc. d LNPA aplica a recursos que agotan la via. El recurso de reconsideracion no agota la via por si solo; de ahi que el RLNPA lo lleve a 20 dias sin contradecir ese piso.
+
+Regla operativa: ante cualquier recurso administrativo federal, verificar la fecha del acto. Para actos notificados post-9-jul-2024 aplican los plazos reformados. Para actos pre-9-jul-2024 aplican los plazos originales (10/15 dias).
+```
+[VERIFICAR PLAZO DE RECURSO: Decreto 695/2024 mod. RLNPA - reconsideración 20 días / jerárquico y alzada 30 días (post-9-jul-2024) - verificar fecha del acto antes de computar]
+```
+
 ### Normativa de contrataciones del Estado
 El régimen de contrataciones de la Administración Nacional (Decreto 1023/01
 y Decreto 1030/16) se modifica frecuentemente por decreto y resolución.
@@ -253,32 +267,40 @@ Preguntas de diagnóstico:
 
 ### Recursos administrativos - régimen federal
 
-**Recurso de reconsideración (art. 84 RLNPA):**
-- Plazo: 10 días hábiles administrativos desde la notificación del acto
+**Recurso de reconsideración (art. 84 RLNPA, mod. Decreto 695/2024):**
+- Plazo: 20 días hábiles administrativos desde la notificación del acto
+  (plazo original: 10 días; duplicado por Decreto 695/2024 para actos post-9-jul-2024)
 - Ante: el mismo órgano que dictó el acto
 - Efecto: suspende el plazo para interponer el recurso jerárquico
 - Resultado: si es denegado o no hay resolución en 30 días, el particular puede alzarse en jerárquico
+- Nota dogmática: el art. 23 inc. d LNPA (Ley 27.742) fija un piso de 30 días para recursos que agotan la vía. La reconsideración no agota la vía por sí sola; de ahí que el RLNPA la lleve a 20 días sin contradecir ese piso.
 
-**Recurso jerárquico (arts. 89-92 RLNPA):**
-- Plazo: 15 días hábiles desde la notificación del acto denegatorio o desde la denegatoria tácita de la reconsideración
+**Recurso jerárquico (arts. 89-92 RLNPA, mod. Decreto 695/2024):**
+- Plazo: 30 días hábiles desde la notificación del acto denegatorio o desde la denegatoria tácita de la reconsideración
+  (plazo original: 15 días; duplicado por Decreto 695/2024 para actos post-9-jul-2024)
 - Ante: el superior jerárquico del órgano emisor (en la práctica, sube hasta el ministro competente)
 - Agota la vía: sí, cuando es resuelto por el ministro o Jefe de Gabinete
+- El plazo de 30 días coincide con el piso del art. 23 inc. d LNPA (recursos que agotan la vía).
 
-**Recurso de alzada (arts. 94-98 RLNPA):**
+**Recurso de alzada (arts. 94-98 RLNPA, mod. Decreto 695/2024):**
+- Plazo: 30 días hábiles desde la notificación del acto del ente autárquico
+  (plazo original: 15 días; duplicado por Decreto 695/2024 para actos post-9-jul-2024)
 - Procede contra actos de entes autárquicos y descentralizados
 - Ante: el ministerio con tutela sobre el ente
 - Opcional en algunos casos: el particular puede prescindir del recurso de alzada y ocurrir directamente a la justicia
+- El plazo de 30 días coincide con el piso del art. 23 inc. d LNPA.
 
 **Queja (art. 71 RLNPA):**
 - Por defectos de tramitación o incumplimiento de plazos
 - No interrumpe plazos de recursos
 
 **Plazo para accionar judicialmente:**
-- Regla general (art. 25 LNPA): 90 días hábiles judiciales desde la notificación del acto que agota la vía
+- Regla general (art. 25 LNPA reformado): verificar fecha del acto - PRE-9-jul-2024: 90 días hábiles judiciales / POST-9-jul-2024: 180 días hábiles judiciales (Ley 27.742)
 - Para amparo: verificar plazos del CCAyT (CABA) o del código local aplicable
 
 Alertas específicas:
-- El plazo de 90 días es de caducidad, no de prescripción. No se suspende ni interrumpe por las mismas causales que la prescripción.
+- Los plazos de recursos son de caducidad en sede administrativa: perentorios e improrrogables.
+- Verificar siempre la fecha del acto: para actos notificados pre-9-jul-2024 aplican los plazos originales (10/15 días); para actos post-9-jul-2024 aplican los plazos reformados (20/30 días).
 - Si el particular no recurrió en plazo en sede administrativa, puede perder la posibilidad de impugnar judicialmente.
 - Denegatoria tácita: si el organismo no resuelve en los plazos legales, se tiene por denegado y corre el plazo para recurrir.
 
