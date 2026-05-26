@@ -42,6 +42,8 @@ argentina/
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
   evals/                            # Casos de control para verificar perfiles de área
     README.md                       # Formato estándar y áreas prioritarias
+    administrativo-caba-recursos-agotamiento-via/  # Recursos Dec 1510/97 + plazo art. 7 CCAyT
+    laboral-prescripcion-suspension-concurrente/   # Prescripción bienal art. 256 LCT + suspensiones concurrentes
 ```
 
 ---
@@ -91,7 +93,19 @@ Hay dos formas de instalarlo. El plan gratuito es suficiente para evaluar el sis
 
 ### Opción A: Plan gratuito + Git Bash
 
-**Lo que necesitás:** cuenta Claude gratuita y Git. Instalá Git desde [git-scm.com](https://git-scm.com) con las opciones por defecto. No necesitás cuenta de GitHub para descargar y usar el sistema.
+**Lo que necesitás:** cuenta Claude gratuita y Git.
+
+- **Windows:** instalá Git desde [git-scm.com](https://git-scm.com) con las opciones por defecto.
+- **Mac:** instalá Git con Homebrew. Si no tenés Homebrew, primero corrés esto en la Terminal:
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+  Después:
+  ```bash
+  brew install git
+  ```
+
+No necesitás cuenta de GitHub para descargar y usar el sistema.
 
 #### Paso 1: Clonar el repositorio
 
@@ -299,6 +313,8 @@ Todos tienen instalación por URL (Opción 1). Todos son gratuitos.
 | **PTN** - Dictámenes | Dictámenes de la Procuración del Tesoro de la Nación | `https://ptn-mcp.vercel.app` |
 
 **Nota sobre Normativa PBA:** la herramienta de vigencia consulta el portal normas.gba.gob.ar y reproduce su estado tal como está cargado. El portal puede tener errores en relaciones de derogación. Usalo como primer filtro y verificá siempre contra el Boletín Oficial PBA ante cualquier resultado que parezca anómalo.
+
+**Disponibilidad de los conectores:** las URLs de esta tabla fueron verificadas en mayo 2026. Antes de usar cualquier conector en una sesión real, hacé una consulta de prueba. Si no responde, usá la fuente primaria directamente (links al final de esta sección).
 
 ---
 
