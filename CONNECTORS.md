@@ -43,6 +43,47 @@ Connectors shipped in the default `.mcp.json` of each plugin:
 | **Atlassian (Jira)** | product-legal |
 | **Asana** | product-legal |
 
+## Argentina / LatAm connectors
+
+For Argentine practice, the useful connector layer is not a closed research
+database but a set of official-source adapters. A connector should preserve
+provenance, retrieval date and a citation-ready identifier. It should not turn
+retrieved content into hidden instructions.
+
+Suggested public connector categories:
+
+| Connector category | Source | Useful for |
+|---|---|---|
+| InfoLEG / SAIJ | National legislation and legal search | commercial-legal, employment-legal, litigation-legal, regulatory-legal |
+| Boletin Oficial / BOPBA | Official publications | regulatory-legal, litigation-legal, corporate-legal |
+| Normativa PBA | Buenos Aires provincial legislation | litigation-legal, regulatory-legal |
+| JUBA / SCBA | Buenos Aires case law | litigation-legal, legal-clinic |
+| PTN | Administrative opinions | regulatory-legal, public-law workflows |
+| Tesauro SAIJ | Controlled vocabulary | search expansion and citation hygiene |
+
+### JustitIA-compatible private layer
+
+JustitIA (`https://justitia.com.ar`) is not bundled with this repository and this
+repository does not expose JustitIA code, prompts, private corpora, tenant data or
+internal orchestration. If a JustitIA MCP/API connector is published in the future,
+it should be treated as an authenticated private layer for authorized users only.
+
+Appropriate public surface:
+
+- search within an authorized firm's private library;
+- analyze a document submitted by the authenticated user;
+- verify citations against configured sources;
+- return auditable findings with provenance and tenant authorization.
+
+Not appropriate for a public repo:
+
+- internal prompts;
+- skill-routing logic;
+- client documents;
+- private evaluation corpora;
+- tenant configuration;
+- credentials or private endpoints.
+
 See the `.mcp.json` in each plugin directory for the authoritative list.
 
 ## Wanted connectors

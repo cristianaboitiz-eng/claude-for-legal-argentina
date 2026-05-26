@@ -21,6 +21,10 @@ argentina/
   tributario-CLAUDE.md        # Perfil para derecho tributario
   red-flags-contratos.md      # Lista de alertas para revisión de contratos
   fuentes.md                  # Conectores a bases de datos normativas locales
+  fuentes-oficiales-matrix.md # Matriz de fuentes oficiales y limites de uso
+  higiene-citas.md            # Reglas para no fabricar citas ni vigencia normativa
+  justitia-compatible.md      # Frontera de interoperabilidad con JustitIA
+  casos-verificacion/         # Casos sinteticos para testear comportamiento
 ```
 
 Los plugins originales quedan intactos. Todo el material argentino vive en la carpeta `argentina/`.
@@ -43,6 +47,14 @@ Los plugins originales quedan intactos. Todo el material argentino vive en la ca
 - `privacy-legal` - habeas data bajo Ley 25.326, no GDPR/DSAR
 
 **Agrega red flags específicas del derecho argentino** para revisión automática de contratos.
+
+**Agrega una capa publica de verificacion**:
+- matriz argentina de fuentes oficiales y conectores;
+- reglas de higiene de citas y grounding normativo;
+- casos sinteticos de verificacion para probar que el asistente no inventa fallos,
+  plazos ni vigencia normativa;
+- nota de interoperabilidad con JustitIA sin exponer codigo, prompts internos,
+  corpus privado ni datos de clientes.
 
 ---
 
@@ -85,8 +97,15 @@ Conectores de la comunidad que apuntan directamente a las fuentes oficiales arge
 | [Psflores/Legal-MCP-Server-](https://github.com/Psflores/Legal-MCP-Server-) | PJN / CABA | Jurisprudencia fueros nacionales |
 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial |
 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica |
+| BOPBA MCP | Boletin Oficial PBA | Publicaciones oficiales bonaerenses |
+| Normativa PBA MCP | Normativa provincial | Legislacion bonaerense |
+| PTN MCP | Procuracion del Tesoro | Dictamenes administrativos |
+| JUBA MCP | Jurisprudencia PBA | Busqueda de precedentes bonaerenses |
 
 No son necesarios para empezar. Los plugins funcionan con el perfil de práctica como única configuración. Los conectores son la segunda capa: permiten que el sistema consulte InfoLEG automáticamente antes de analizar una norma.
+
+Ver tambien `argentina/fuentes-oficiales-matrix.md` para distinguir fuente oficial,
+publicacion, doctrina administrativa, jurisprudencia, documento cliente e inferencia.
 
 ---
 
@@ -97,6 +116,8 @@ No son necesarios para empezar. Los plugins funcionan con el perfil de práctica
 - Preparar briefings de due diligence para operaciones societarias o M&A, con checklist adaptado a LGS y normativa IGJ/DPPJ
 - Monitorear vencimientos de contratos
 - Armar matrices de riesgo para compliance bajo Ley 25.326
+- Auditar citas dudosas y reemplazar autoridad no verificada por marcadores seguros
+- Correr casos sinteticos de verificacion antes de confiar en un perfil o conector
 
 ---
 
@@ -105,6 +126,12 @@ No son necesarios para empezar. Los plugins funcionan con el perfil de práctica
 El criterio del abogado. La responsabilidad profesional. La firma.
 
 Todo output del sistema es un borrador. No sabe qué pasó en la negociación, no conoce la relación con la contraparte, no tiene el expediente completo. Acelera la parte mecánica. Las decisiones son siempre del abogado.
+
+Este fork tampoco reemplaza una plataforma privada de produccion. Los perfiles,
+matrices y casos publicos son una capa abierta de referencia. Bibliotecas
+institucionales, documentos reales, trazabilidad por tenant, calibracion por firma,
+prompts internos, corpus privados y workflows productivos deben permanecer en
+sistemas autenticados.
 
 ---
 

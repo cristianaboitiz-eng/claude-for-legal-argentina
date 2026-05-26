@@ -10,8 +10,8 @@ No son necesarios para empezar. Los plugins funcionan con el perfil de práctica
 
 ### 1. Ansvar-Systems/argentine-law-mcp
 
-**Repositorio:** https://github.com/Ansvar-Systems/argentine-law-mcp  
-**Fuentes:** InfoLEG · SAIJ  
+**Repositorio:** https://github.com/Ansvar-Systems/argentine-law-mcp
+**Fuentes:** InfoLEG · SAIJ
 **Función:** Devuelve el texto literal de normas nacionales argentinas sin pasar por ningún modelo de lenguaje. Ideal para verificación de vigencia y texto oficial de artículos específicos.
 
 Casos de uso:
@@ -21,8 +21,8 @@ Casos de uso:
 
 ### 2. Psflores/Legal-MCP-Server-
 
-**Repositorio:** https://github.com/Psflores/Legal-MCP-Server-  
-**Fuentes:** Poder Judicial de la Nación · Justicia CABA  
+**Repositorio:** https://github.com/Psflores/Legal-MCP-Server-
+**Fuentes:** Poder Judicial de la Nación · Justicia CABA
 **Función:** Búsqueda de jurisprudencia de CABA y fueros nacionales.
 
 Casos de uso:
@@ -32,7 +32,7 @@ Casos de uso:
 
 ### 3. guidobonomini/argentina-law-mcp-server
 
-**Repositorio:** https://github.com/guidobonomini/argentina-law-mcp-server  
+**Repositorio:** https://github.com/guidobonomini/argentina-law-mcp-server
 **Función:** Análisis semántico de documentos legales, glosario judicial argentino, módulos de detección de riesgos según praxis local.
 
 Casos de uso:
@@ -42,14 +42,59 @@ Casos de uso:
 
 ### 4. datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino
 
-**Repositorio:** https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino  
-**Fuente:** SAIJ  
+**Repositorio:** https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino
+**Fuente:** SAIJ
 **Función:** Vocabulario controlado para búsqueda jurídica. Mapea sinónimos, términos preferidos y jerarquías conceptuales del derecho argentino.
 
 Casos de uso:
 - Mejorar la precisión de búsquedas jurisprudenciales
 - Evitar que el sistema use términos de common law cuando existe equivalente argentino
 - Consistencia terminológica en documentos largos
+
+### 5. BOPBA MCP
+
+**Fuente:** Boletin Oficial de la Provincia de Buenos Aires
+**Funcion:** Verificacion de publicaciones oficiales bonaerenses.
+
+Casos de uso:
+- Confirmar publicacion de leyes, decretos, resoluciones y actos provinciales
+- Verificar fecha de publicacion antes de analizar vigencia
+- Buscar actos administrativos provinciales recientes
+
+Limite: publicacion oficial no equivale necesariamente a texto consolidado vigente.
+
+### 6. Normativa PBA MCP
+
+**Fuente:** Legislacion y normativa de Provincia de Buenos Aires
+**Funcion:** Busqueda de normativa provincial.
+
+Casos de uso:
+- Verificar normativa PBA por tema
+- Cruzar una publicacion BOPBA con texto normativo disponible
+- Evitar aplicar CPCCN o normativa nacional cuando corresponde PBA
+
+### 7. PTN MCP
+
+**Fuente:** Procuracion del Tesoro de la Nacion
+**Funcion:** Recuperacion de dictamenes administrativos.
+
+Casos de uso:
+- Buscar doctrina administrativa nacional sobre procedimiento, contrataciones,
+  empleo publico o responsabilidad estatal
+- Separar criterio administrativo de jurisprudencia judicial
+- Ubicar lineas doctrinarias utiles para escritos administrativos
+
+Limite: un dictamen PTN no es una sentencia ni reemplaza la norma aplicable.
+
+### 8. JUBA MCP
+
+**Fuente:** Jurisprudencia bonaerense
+**Funcion:** Busqueda de precedentes de tribunales PBA.
+
+Casos de uso:
+- Verificar doctrina SCBA o camaras provinciales
+- Evitar extrapolar CNCom/CNAT a Provincia de Buenos Aires
+- Preparar busquedas por departamento judicial o materia
 
 ---
 
@@ -66,6 +111,11 @@ Estas fuentes no tienen conector MCP disponible actualmente. Se acceden directam
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |
 | IGJ | igj.gob.ar | Resoluciones societarias CABA |
 | CNV | cnv.gov.ar | Normas y resoluciones mercado de capitales |
+| BCRA | bcra.gob.ar | Comunicaciones y normativa financiera/cambiaria |
+| UIF | argentina.gob.ar/uif | Resoluciones y criterios PLA/FT |
+| PTN | ptn.gob.ar | Dictamenes administrativos nacionales |
+| BOPBA | gba.gob.ar/boletin_oficial | Publicaciones oficiales PBA |
+| JUBA | juba.scba.gov.ar | Jurisprudencia bonaerense |
 
 ---
 
@@ -79,6 +129,9 @@ Los conectores se instalan en Claude Cowork (aplicación de escritorio). El proc
 4. Verificar que el conector aparezca activo antes de usarlo
 
 Para instrucciones específicas de cada conector, consultar el README del repositorio correspondiente.
+
+Ver `fuentes-oficiales-matrix.md` para la matriz completa de procedencia,
+volatilidad y limites de uso.
 
 ---
 
