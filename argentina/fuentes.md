@@ -12,14 +12,16 @@ sin que el abogado tenga que pegar el texto de la norma en la sesión.
 Compatible con cualquier cliente MCP estándar (Claude, OpenCode, u otros).
 Los conectores que exponen endpoint público (URL) no requieren instalación local.
 Los que usan `uvx` requieren Python con uv instalado.
+Los que usan `npx` requieren Node.js 18+.
 Los que se instalan manualmente desde GitHub requieren configurar `claude_desktop_config.json` y, según el conector, dependencias adicionales (Python, Chrome, chromedriver).
 
 ---
 
 ## Cómo verificar que un conector está activo antes de usarlo
 
-Los conectores de esta lista son proyectos de la comunidad sin mantenimiento
-garantizado. Antes de depender de un conector en una sesión de trabajo:
+Los conectores de esta lista incluyen tanto conectores de voftec (verificados activos)
+como proyectos de la comunidad (7, 8, 9, 10, 12) sin mantenimiento garantizado.
+Antes de depender de cualquier conector en una sesión de trabajo:
 
 1. En Claude.ai: ir a Settings > Integrations y verificar que el conector
    figura como activo. Si no aparece o figura inactivo, no está disponible.
@@ -48,6 +50,11 @@ conector no estaba disponible.
 | 10 - Tesauro SAIJ | Vocabulario jurídico controlado | Usar terminología estándar CCCN y LCT directamente |
 | 11 - BORA Oficial | Boletín Oficial de la República Argentina | boletinoficial.gob.ar acceso directo |
 | 12 - scba-mcp-server | Sentencias y resoluciones de primera instancia PBA | sentencias.scba.gov.ar acceso directo |
+| 13 - tfn-mcp | Jurisprudencia y resoluciones TFN | tfn.gob.ar acceso directo |
+| 14 - bopba-mcp | Boletín Oficial PBA | boletinoficial.gba.gob.ar acceso directo |
+| 15 - ptn-mcp | Dictámenes PTN | busquedadictamenes.ptn.gob.ar acceso directo |
+| 16 - pjn-juris-mcp | Jurisprudencia federal PJN | pjn.gov.ar acceso directo |
+| 17 - infoleg-mcp | Legislación nacional | infoleg.gob.ar acceso directo |
 
 Cuando se usa el fallback manual (pegar texto en sesión), indicar siempre
 al inicio del texto pegado: fuente, fecha de consulta y URL de origen.
@@ -62,7 +69,7 @@ al inicio del texto pegado: fuente, fecha de consulta y URL de origen.
 **Fuentes:** InfoLEG · SAIJ
 **Función:** Devuelve el texto literal de normas nacionales argentinas sin
 pasar por ningún modelo de lenguaje. Consulta directa a InfoLEG.
-**Estado al mayo 2026:** activo según última verificación. Confirmar antes de usar.
+**Estado al mayo 2026:** verificado activo.
 
 Casos de uso:
 - Verificar el texto actual de un artículo del CCCN, LCT, LDC u otra norma nacional
@@ -81,6 +88,7 @@ Limitaciones:
 ### 2. voftec/normativapba-mcp
 
 **Repositorio:** https://github.com/voftec/normativapba-mcp
+**NPM:** https://www.npmjs.com/package/normativapba-mcp
 **URL directa (Claude.ai):** https://normativapba-mcp.vercel.app
 **Fuente:** normas.gba.gob.ar (Sistema de Información Normativa "Malvinas Argentinas" - Subsecretaría Legal y Técnica de PBA)
 **Función:** Conector para legislación provincial de la Provincia de Buenos Aires.
@@ -128,13 +136,15 @@ Limitaciones:
 
 ---
 
-### 3. juba-mcp (Hernán Caravario)
+### 3. voftec/juba-mcp
 
-**Instalación:** `claude mcp add juba-mcp -- uvx juba-mcp`
+**Repositorio:** https://github.com/voftec/juba-mcp
+**NPM:** https://www.npmjs.com/package/juba-mcp
+**URL directa (Claude.ai):** https://juba-mcp.vercel.app
+**Instalación alternativa (Claude Code):** `claude mcp add juba-mcp -- uvx juba-mcp`
 **Fuente:** https://juba.scba.gov.ar/ (SCBA - Suprema Corte de Justicia de la Provincia de Buenos Aires)
 **Función:** Búsqueda de jurisprudencia de la SCBA y cámaras de apelación provinciales PBA vía JUBA.
-**Viabilidad técnica:** HIGH - interfaz AJAX sin protección antibot significativa; compatible con scraping estándar.
-**Estado al mayo 2026:** verificado publicado. Comando de instalación confirmado en página del autor.
+**Estado al mayo 2026:** verificado activo.
 
 Casos de uso:
 - Buscar jurisprudencia SCBA por materia, sala o período
@@ -158,8 +168,7 @@ Limitaciones:
 **Instalación:** `claude mcp add saij-mcp -- uvx saij-mcp`
 **Fuente:** https://saij.gob.ar/ (Sistema Argentino de Información Jurídica - Ministerio de Justicia)
 **Función:** Búsqueda en SAIJ de jurisprudencia, legislación, doctrina y dictámenes. Acceso a más de 330.000 documentos jurídicos.
-**Viabilidad técnica:** HIGH
-**Estado al mayo 2026:** verificado publicado. Comando de instalación confirmado en página del autor.
+**Estado al mayo 2026:** verificado activo.
 
 Casos de uso:
 - Buscar jurisprudencia de todas las instancias indexadas en SAIJ
@@ -179,8 +188,7 @@ Limitaciones:
 **Instalación:** `claude mcp add csjn-mcp -- uvx csjn-mcp`
 **Fuente:** CSJN
 **Función:** Búsqueda de fallos de la Corte Suprema de Justicia de la Nación.
-**Viabilidad técnica:** HIGH
-**Estado al mayo 2026:** verificado publicado. Comando de instalación confirmado en página del autor.
+**Estado al mayo 2026:** verificado activo.
 
 Casos de uso:
 - Buscar doctrina de la CSJN por materia
@@ -200,8 +208,7 @@ Limitaciones:
 **Instalación:** `claude mcp add juscaba-mcp -- uvx juscaba-mcp`
 **Fuente:** Poder Judicial CABA / fueros nacionales con sede en CABA
 **Función:** Búsqueda de jurisprudencia de fueros nacionales y locales con sede en CABA.
-**Viabilidad técnica:** HIGH
-**Estado al mayo 2026:** verificado publicado. Comando de instalación confirmado en página del autor.
+**Estado al mayo 2026:** verificado activo.
 
 Casos de uso:
 - Buscar fallos de fueros nacionales (civil, comercial, laboral, penal) con sede en CABA
@@ -250,7 +257,7 @@ Casos de uso:
 - Buscar doctrina y dictámenes en la misma operación que jurisprudencia
 
 Limitaciones:
-- Depende de infraestructura no oficial de SAIJ: mayor riesgo de rotura que conectores 1-6
+- Depende de infraestructura no oficial de SAIJ: mayor riesgo de rotura que conectores 1-6 y 14-17
 - No cubre fuentes ajenas a SAIJ (CSJN directa, JUBA, PJN)
 - No reemplaza al conector 1 (Ansvar) para verificación del texto oficial de normas nacionales
 
@@ -322,7 +329,10 @@ Limitaciones:
 
 ### 11. BORA Oficial (bora-mcp)
 
-**URL directa (Claude.ai):** https://bora-mcp.vercel.app/api/mcp/sse
+**Repositorio:** https://github.com/voftec/bora-mcp
+**NPM:** https://www.npmjs.com/package/bora-mcp
+**URL directa (Claude.ai):** https://bora-mcp.vercel.app
+**Prompts de ejemplo:** https://bora-mcp.vercel.app/prompts
 **Fuente:** boletinoficial.gob.ar (Boletín Oficial de la República Argentina)
 **Función:** Consulta directa al BORA. Devuelve la portada del día, sumario completo
 por fecha, texto verbatim de avisos por ID, nuevas sociedades (Segunda Sección)
@@ -401,11 +411,150 @@ Limitaciones:
 
 ---
 
+### 13. voftec/tfn-mcp
+
+**Repositorio:** https://github.com/voftec/tfn-mcp
+**NPM:** https://www.npmjs.com/package/tfn-mcp
+**URL directa (Claude.ai):** https://tfn-mcp.vercel.app
+**Fuente:** tfn.gob.ar (Tribunal Fiscal de la Nación)
+**Función:** Consulta de jurisprudencia y resoluciones del TFN en materia impositiva y aduanera. 16 herramientas con filtros avanzados por sala, vocalía, competencia, tipo de búsqueda, rango de fechas. Descarga PDF. Incluye resumen generado por IA de cada resolución.
+**Instalación:** tres vías disponibles: (a) URL directa en Claude.ai sin dependencias locales; (b) `npx tfn-mcp` con Node.js 18+; (c) instalación manual desde repositorio.
+**Nota operativa:** cuando se instala vía npx o configuración local, requiere `NODE_TLS_REJECT_UNAUTHORIZED=0` para resolver certificados SSL de portales gubernamentales. No aplica a la instalación por URL directa. Ver sección de instalación.
+**Estado al mayo 2026:** verificado activo.
+
+Herramientas disponibles:
+
+| Herramienta | Función |
+|---|---|
+| `buscar_resoluciones_tfn` | Búsqueda general con filtros avanzados (competencia, tribunal, sala, vocalía, fechas) |
+| `tfn_buscar_resolucion_por_expediente` | Búsqueda por número de expediente exacto |
+| `tfn_buscar_resolucion_por_caratula` | Búsqueda por nombre de las partes |
+| `tfn_buscar_por_hechos` | Búsqueda por hechos del caso en lenguaje natural |
+| `tfn_buscar_por_sumarios` | Búsqueda por sumarios de las resoluciones |
+| `tfn_buscar_antecedentes` | Casos similares y antecedentes jurisprudenciales |
+| `tfn_buscar_ultimos_impositivos` | Fallos impositivos recientes |
+| `tfn_buscar_ultimos_aduaneros` | Fallos aduaneros recientes |
+| `obtener_resolucion_tfn` | Texto íntegro con expediente, sala, vocalía, competencia, fecha, sumarios y síntesis |
+| `tfn_obtener_resumen_ia` | Resumen IA de una resolución específica |
+| `tfn_descargar_resolucion_pdf` | Descarga del PDF original |
+| `tfn_verificar_vigencia` | Disponibilidad y datos de identificación del fallo |
+| `tfn_obtener_estadisticas` | Estadísticas del TFN (totales, por tribunal, doctrinas identificadas) |
+| `tfn_obtener_filtros` | Filtros disponibles: tribunales, salas, vocalías, competencias |
+| `tfn_obtener_ultimos_casos` | Casos más recientes publicados |
+| `alcance_fuente` | Cobertura, capacidades y disclaimer del conector |
+
+Casos de uso:
+- Buscar jurisprudencia del TFN por materia impositiva (Ganancias, IVA, Bienes Personales) o aduanera antes de interponer recurso
+- Verificar criterio de sala o vocalía sobre un instituto tributario
+- Obtener texto íntegro y PDF de una resolución para citar en escrito
+- Rastrear antecedentes jurisprudenciales sobre un hecho específico en lenguaje natural
+
+Limitaciones:
+- Solo jurisprudencia TFN; no cubre CNACAF ni CSJN en materia tributaria
+- El resumen IA (`tfn_obtener_resumen_ia`) es generado por el sistema del TFN, no por este conector; verificar antes de citar
+- Misma limitación SSL que aplica a cualquier conector voftec instalado vía npx o configuración local: requiere `NODE_TLS_REJECT_UNAUTHORIZED=0` para portales gubernamentales con certificados vencidos. No aplica a la instalación por URL directa.
+
+**Fallback:** tfn.gob.ar acceso directo sin conector.
+
+---
+
+### 14. voftec/bopba-mcp
+
+**Repositorio:** https://github.com/voftec/bopba-mcp
+**NPM:** https://www.npmjs.com/package/bopba-mcp
+**URL directa (Claude.ai):** https://bopba-mcp.vercel.app
+**Fuente:** boletinoficial.gba.gob.ar (Boletín Oficial de la Provincia de Buenos Aires)
+**Función:** Consulta del Boletín Oficial PBA. Búsqueda por fecha, número de norma y texto libre. Complementa al conector 2 (Normativa PBA): el 2 da el texto consolidado con vigencia; el 14 da la publicación oficial original en el BOPBA.
+**Instalación:** URL directa en Claude.ai sin dependencias locales.
+**Estado al mayo 2026:** verificado activo.
+
+Casos de uso:
+- Verificar la publicación oficial de una norma PBA por fecha y número
+- Rastrear la cadena de modificaciones de una ley provincial a través de sus publicaciones en el BOPBA
+- Complementar al conector 2 cuando se necesita el texto original de publicación (no el consolidado)
+
+Limitaciones:
+- Solo Boletín Oficial PBA; no cubre el BORA nacional (conector 11) ni boletines de otras provincias
+- Devuelve la publicación original, no el texto consolidado con todas sus modificaciones
+
+**Fallback:** boletinoficial.gba.gob.ar acceso directo sin conector.
+
+---
+
+### 15. voftec/ptn-mcp
+
+**Repositorio:** https://github.com/voftec/ptn-mcp
+**NPM:** https://www.npmjs.com/package/ptn-mcp
+**URL directa (Claude.ai):** https://ptn-mcp.vercel.app
+**Prompts de ejemplo:** https://ptn-mcp.vercel.app/prompts
+**Fuente:** busquedadictamenes.ptn.gob.ar (Procuración del Tesoro de la Nación)
+**Función:** Búsqueda de dictámenes de la PTN en materia de responsabilidad del Estado, empleo público, contratos administrativos y derecho administrativo federal.
+**Instalación:** URL directa en Claude.ai sin dependencias locales.
+**Estado al mayo 2026:** verificado activo.
+
+Casos de uso:
+- Buscar doctrina de la PTN sobre responsabilidad del Estado antes de demandar
+- Verificar criterio PTN sobre empleo público y contratos administrativos
+- Obtener dictámenes sobre competencia y procedimiento administrativo federal
+
+Limitaciones:
+- Solo dictámenes PTN; no cubre jurisprudencia judicial
+- No reemplaza al conector 4 (saij-mcp) para jurisprudencia y doctrina académica
+
+**Fallback:** busquedadictamenes.ptn.gob.ar acceso directo sin conector.
+
+---
+
+### 16. voftec/pjn-juris-mcp
+
+**Repositorio:** https://github.com/voftec/pjn-juris-mcp
+**NPM:** https://www.npmjs.com/package/pjn-juris-mcp
+**URL directa (Claude.ai):** https://pjn-juris-mcp.vercel.app
+**Fuente:** pjn.gov.ar (Poder Judicial de la Nación - jurisprudencia federal)
+**Función:** Búsqueda de jurisprudencia federal del PJN: fallos, sentencias, resoluciones y sumarios de todos los fueros federales. Distinto del conector de expedientes (pjn-consulta-mcp): este devuelve el texto de los fallos, no el estado procesal de los expedientes.
+**Instalación:** URL directa en Claude.ai sin dependencias locales.
+**Estado al mayo 2026:** verificado activo.
+
+Casos de uso:
+- Buscar jurisprudencia federal por materia antes de redactar un escrito en fuero federal
+- Verificar criterio de cámaras federales sobre un instituto
+- Complementar al conector 6 (juscaba-mcp) para cobertura federal ampliada
+
+Limitaciones:
+- Solo jurisprudencia federal PJN; no cubre PBA ni CSJN directa (usar conectores 3 y 5)
+- Distinto del conector de expedientes (conector ya existente pjn-consulta-mcp): no consulta estado de expedientes
+
+**Fallback:** pjn.gov.ar acceso directo sin conector.
+
+---
+
+### 17. voftec/InfoLeg-MCP
+
+**Repositorio:** https://github.com/voftec/InfoLeg-MCP
+**NPM:** https://www.npmjs.com/package/infoleg-mcp
+**URL directa (Claude.ai):** https://infoleg-mcp.vercel.app
+**Fuente:** infoleg.gob.ar (InfoLEG - Ministerio de Justicia)
+**Función:** Conector voftec para consulta de legislación nacional argentina desde InfoLEG. Cubre el mismo contenido que el conector 1 (Ansvar) con instalación estándar por URL directa.
+**Instalación:** URL directa en Claude.ai sin dependencias locales.
+**Estado al mayo 2026:** verificado activo.
+
+Casos de uso:
+- Mismo uso que el conector 1: verificar texto y vigencia de normas nacionales desde InfoLEG
+- Útil como respaldo si el conector 1 no responde en una sesión específica
+
+Limitaciones:
+- Misma fuente que el conector 1 (InfoLEG): no agrega cobertura distinta
+- El conector 1 es automático y no requiere configuración; este sí
+
+**Fallback:** infoleg.gob.ar acceso directo sin conector.
+
+---
+
 ## Tabla de decisión - qué conector usar
 
 | Necesidad | Conector recomendado | Alternativa |
 |---|---|---|
-| Verificar texto de una norma nacional | 1 (Ansvar) | InfoLEG directo |
+| Verificar texto de una norma nacional | 1 (Ansvar, automático) | 17 (infoleg-mcp voftec) · InfoLEG directo |
 | Verificar texto de una norma provincial PBA | 2 (voftec) | normas.gba.gob.ar directo |
 | Buscar jurisprudencia PBA (SCBA y cámaras) | 3 (juba-mcp) | juba.scba.gov.ar directo |
 | Buscar jurisprudencia + doctrina + dictámenes | 4 (saij-mcp) | saij.gob.ar directo |
@@ -417,6 +566,11 @@ Limitaciones:
 | Mejorar búsquedas jurisprudenciales | 10 (Tesauro SAIJ) | SAIJ directo |
 | Texto de normas publicadas en BORA / sociedades / licitaciones | 11 (BORA Oficial) | boletinoficial.gob.ar directo |
 | Buscar sentencias/resoluciones de juzgados de primera instancia PBA | 12 (scba-mcp-server) | sentencias.scba.gov.ar directo |
+| Buscar jurisprudencia y resoluciones del TFN (tributario/aduanero) | 13 (tfn-mcp) | tfn.gob.ar directo |
+| Verificar publicación oficial de norma PBA en BOPBA | 14 (bopba-mcp) | boletinoficial.gba.gob.ar directo |
+| Buscar dictámenes PTN (responsabilidad del Estado, empleo público) | 15 (ptn-mcp) | busquedadictamenes.ptn.gob.ar directo |
+| Buscar jurisprudencia federal PJN (fallos y sentencias) | 16 (pjn-juris-mcp) | pjn.gov.ar directo |
+| Verificar texto de norma nacional (instalación explícita) | 17 (infoleg-mcp) | infoleg.gob.ar directo |
 
 **Combinaciones recomendadas:**
 
@@ -428,14 +582,23 @@ Limitaciones:
 - **10 + 4:** el Tesauro normaliza la terminología antes de ejecutar la búsqueda en SAIJ.
 - **1 + 9:** análisis de contratos. El 9 detecta terminología; el 1 verifica las normas citadas.
 - **3 + 12:** cobertura complementaria de jurisprudencia PBA. El 3 cubre SCBA y cámaras vía JUBA (y desde junio 2025 también primera instancia civil, laboral y contencioso administrativo). El 12 cubre primera instancia vía sentencias.scba.gov.ar con búsqueda por texto libre y descarga de documentos completos, funcionalidad que JUBA no expone con la misma granularidad. Hay solapamiento parcial en primera instancia desde junio 2025: usar el 12 cuando se necesite texto completo del documento o búsqueda por palabra clave dentro del cuerpo de la resolución.
+- **1 + 13:** escritos ante el TFN. El 1 verifica la norma nacional aplicada; el 13 aporta los antecedentes jurisprudenciales del tribunal sobre el instituto.
+- **5 + 13:** recursos de apelación ante la CNACAF o casación tributaria. El 5 cubre la doctrina CSJN en materia tributaria; el 13 aporta el criterio del TFN sobre el mismo instituto para trazar la evolución de la cuestión.
+- **2 + 14:** cobertura normativa PBA completa. El 2 da el texto consolidado con vigencia; el 14 da la publicación original y permite rastrear la cadena de modificaciones por fecha de BOPBA.
+- **4 + 15:** escritos contencioso administrativos federales. El 15 aporta la doctrina PTN; el 4 aporta jurisprudencia y doctrina académica sobre el mismo instituto.
+- **6 + 16:** jurisprudencia federal completa con sede en CABA. El 6 cubre fueros locales CABA; el 16 cubre fueros federales PJN.
 
 **Si dos conectores dan resultados contradictorios:**
-Los conectores 1-6 acceden a fuentes primarias oficiales: en caso de contradicción
+Los conectores 1-6 y 14-17 acceden a fuentes primarias oficiales: en caso de contradicción
 con cualquier otro conector o con el conocimiento base del sistema, prevalece
 la fuente primaria. El conector 12 también accede a una fuente oficial
-(sentencias.scba.gov.ar) pero es un scraper de mayor fragilidad técnica que 1-6:
+(sentencias.scba.gov.ar) pero es un scraper de mayor fragilidad técnica que 1-6 y 14-17:
 si sus resultados contradicen al conector 3 (juba-mcp) sobre el mismo documento,
-verificar directamente en el portal antes de proceder. Los conectores 9 y 10 son instrumentos auxiliares:
+verificar directamente en el portal antes de proceder. El conector 13 (tfn-mcp)
+accede a tfn.gob.ar, fuente oficial, pero su infraestructura de scraping es más
+frágil que 1-6 y 14-17: si sus resultados contradicen al conector 4 (saij-mcp) o al 5
+(csjn-mcp) sobre el mismo fallo con repercusión tributaria, verificar directamente
+en tfn.gob.ar antes de citar. Los conectores 9 y 10 son instrumentos auxiliares:
 si contradicen una fuente primaria, reportar la discrepancia al abogado con el marcador:
 
 ```
@@ -453,9 +616,6 @@ seguimiento o desarrollo por la comunidad.
 
 | Nombre tentativo | Fuente | URL | Viabilidad técnica estimada | Estado |
 |---|---|---|---|---|
-| `bopba-mcp` | Boletín Oficial PBA | boletinoficial.gba.gob.ar | MEDIUM-HIGH - scraping de PDFs vía Cheerio, búsqueda por formulario | No verificado públicamente |
-| `ptn-mcp` | PTN - Buscador de dictámenes | busquedadictamenes.ptn.gob.ar | HIGH - SPA React sobre Elasticsearch JSON API directa | No verificado públicamente |
-| `tfn-mcp` | Tribunal Fiscal de la Nación | jurisprudenciatfn.mecon.gob.ar | HIGH - formulario HTTP POST simple, compatible con cheerio/axios | No verificado públicamente |
 | `dppj-mcp` | DPPJ PBA - Personas Jurídicas | gba.gob.ar/dppj | MEDIUM-HIGH - sistema Tramix Web, scraping por legajo/expediente con rate limiting | No verificado públicamente |
 | `bcra-deudores-mcp` | BCRA - Central de Deudores | bcra.gob.ar/bcrayvos/situacion_crediticia.asp | LOW - Cloudflare + reCAPTCHA v3, bloquea Vercel/AWS; inviable en entornos cloud serverless | No verificado públicamente |
 
@@ -486,7 +646,7 @@ ante cualquier discrepancia con un conector.
 | CNV | cnv.gov.ar | Normas y resoluciones mercado de capitales |
 | BCRA | bcra.gov.ar | Normativa cambiaria y financiera |
 | COMARB | comarb.gov.ar | Convenio Multilateral - Ingresos Brutos |
-| TFN | jurisprudenciatfn.mecon.gob.ar | Jurisprudencia tributaria |
+| TFN | tfn.gob.ar | Jurisprudencia tributaria |
 | Boletín Oficial PBA | boletinoficial.gba.gob.ar | Publicaciones oficiales PBA |
 
 ---
@@ -502,14 +662,32 @@ Para conectores que exponen endpoint público:
 
 No requiere Node.js, Python ni configuración local.
 
-**Con uvx (conectores de Caravario - conectores 3 a 6):**
-Requiere Python con uv instalado (`pip install uv`).
+**Con uvx (instalación alternativa para Claude Code):**
+Requiere Python con uv instalado (`pip install uv`). Los conectores voftec también admiten esta vía además de la URL directa.
 ```
 claude mcp add juba-mcp -- uvx juba-mcp
 claude mcp add saij-mcp -- uvx saij-mcp
 claude mcp add csjn-mcp -- uvx csjn-mcp
 claude mcp add juscaba-mcp -- uvx juscaba-mcp
 ```
+
+**Con npx (conectores voftec - alternativa a URL directa):**
+Requiere Node.js 18+. Aplica a cualquier conector voftec cuando no se usa la URL directa. Ejemplo para el conector 13 (tfn-mcp):
+Agregar al `claude_desktop_config.json`:
+```json
+{
+  "mcpServers": {
+    "tfn-mcp": {
+      "command": "npx",
+      "args": ["tfn-mcp"],
+      "env": {
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      }
+    }
+  }
+}
+```
+La variable `NODE_TLS_REJECT_UNAUTHORIZED=0` es necesaria para sortear certificados SSL de portales gubernamentales. Aplica a cualquier conector voftec instalado por esta vía. Reiniciar Claude Desktop después de guardar.
 
 **Manual desde GitHub (conector 12 - scba-mcp-server):**
 Requiere Python 3.9+, Chrome y chromedriver compatibles.
