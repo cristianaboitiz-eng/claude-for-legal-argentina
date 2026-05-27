@@ -165,6 +165,7 @@ Limitaciones:
 
 ### 4. saij-mcp (Hernán Caravario)
 
+**Repositorio:** https://github.com/hernan-cc/saij-mcp
 **Instalación:** `claude mcp add saij-mcp -- uvx saij-mcp`
 **Fuente:** https://saij.gob.ar/ (Sistema Argentino de Información Jurídica - Ministerio de Justicia)
 **Función:** Búsqueda en SAIJ de jurisprudencia, legislación, doctrina y dictámenes. Acceso a más de 330.000 documentos jurídicos.
@@ -185,6 +186,7 @@ Limitaciones:
 
 ### 5. csjn-mcp (Hernán Caravario)
 
+**Repositorio:** https://github.com/hernan-cc/csjn-mcp
 **Instalación:** `claude mcp add csjn-mcp -- uvx csjn-mcp`
 **Fuente:** CSJN
 **Función:** Búsqueda de fallos de la Corte Suprema de Justicia de la Nación.
@@ -205,6 +207,7 @@ Limitaciones:
 
 ### 6. juscaba-mcp (Hernán Caravario)
 
+**Repositorio:** https://github.com/hernan-cc/juscaba-mcp
 **Instalación:** `claude mcp add juscaba-mcp -- uvx juscaba-mcp`
 **Fuente:** Poder Judicial CABA / fueros nacionales con sede en CABA
 **Función:** Búsqueda de jurisprudencia de fueros nacionales y locales con sede en CABA.
