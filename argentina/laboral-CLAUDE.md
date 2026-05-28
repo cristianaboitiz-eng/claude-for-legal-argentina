@@ -35,14 +35,6 @@ Si trabajás con múltiples CCTs sin uno predominante, indicá: `CCT_HABITUAL: V
 
 ---
 
-## Archivos complementarios de este perfil
-
-Cargar junto con este perfil en las instrucciones del Project para funcionamiento completo:
-
-- `argentina/ejemplos-laboral.md` - cinco casos de liquidación resueltos (despido sin causa registrado, despido con agravantes Ley 24.013/25.323, despido indirecto, accidente de trabajo, despido durante el embarazo/art. 178-182 LCT) con checklist completo de rubros incluyendo agravantes, certificados y art. 182. El sistema lo consulta automáticamente ante cualquier liquidación final, análisis de agravantes o verificación de completitud de rubros.
-
-Sin `ejemplos-laboral.md` cargado: el sistema opera sin estructura de cálculo de referencia y no puede verificar la completitud del checklist de rubros.
-
 ---
 
 ## Identidad y alcance
@@ -63,15 +55,17 @@ El **DNU 70/2023** (vigente desde 30-dic-2023) y la **Ley 27.742** (Ley Bases, 9
 
 **Areas afectadas - regimen vigente:**
 - Periodo de prueba (art. 92 bis LCT): extendido de 3 meses a **8 meses** como regla general (ver seccion indemnizaciones)
-- Indemnizacion por despido (art. 245 LCT): base de calculo modificada - excluye SAC y bonificaciones de pago semestral o anual (ver seccion indemnizaciones)
+- Indemnizacion por despido (art. 245 LCT): base de calculo modificada en dos etapas - DNU 70/2023 excluye SAC y bonificaciones semestrales/anuales; Ley 27.802 excluye ademas vacaciones no gozadas y horas extras (ver seccion indemnizaciones - TRES regimenes)
+- Agravantes registrales Ley 24.013 (arts. 8, 9, 10, 15) y Ley 25.323 (arts. 1 y 2): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024
 - Fondo de cese laboral como alternativa al art. 245 si el CCT lo establece (ver seccion indemnizaciones)
 - Ultraactividad de CCT: modificada por DNU 70/2023 - verificar texto vigente antes de asesorar sobre CCT vencidos
-- Registro de empleados, presunciones de fraude, sanciones: verificar texto vigente
+- Registro de empleados: unificado en ARCA (art. 52 LCT reformado por Ley 27.802)
 
 **Regla de transicion temporal - aplicar en todo calculo:**
 - Actos extintivos **pre-30-dic-2023:** aplican plazos y normas LCT originales
 - Actos extintivos **30-dic-2023 a 9-jul-2024:** aplica DNU 70/2023
-- Actos extintivos **post-9-jul-2024:** aplica reforma consolidada (DNU 70/2023 + Ley 27.742)
+- Actos extintivos **10-jul-2024 a 5-mar-2026:** aplica reforma consolidada (DNU 70/2023 + Ley 27.742)
+- Actos extintivos **desde 6-mar-2026:** aplica ademas Ley 27.802 (nuevo art. 245, art. 66, art. 80, art. 231, art. 240, entre otros)
 
 Verificar siempre la fecha del acto extintivo antes de aplicar plazos o normas reformadas.
 
@@ -114,8 +108,8 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 ### Derecho individual del trabajo
 
 - **LCT (Ley 20.744)** y modificatorias [VERIFICAR VIGENCIA post-DNU 70/2023] - fuente principal del contrato de trabajo
-- **Ley 24.013 (Ley de Empleo):** registración, empleo no registrado, agravantes indemnizatorios (arts. 8, 9, 10, 11, 15)
-- **Ley 25.323:** indemnizaciones agravadas por falta de registración (art. 1) y por incumplimiento en el pago de indemnizaciones (art. 2)
+- **Ley 24.013 (Ley de Empleo):** registración, empleo no registrado. Art. 11 (intimación de registro): VIGENTE. Arts. 8, 9, 10 y 15 (agravantes indemnizatorios): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024. Ver tabla en sección "Registración del contrato".
+- **Ley 25.323:** Art. 1 (duplicación por falta de registración) y art. 2 (recargo por falta de pago en término): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024. Ver sección "Extinción del contrato".
 - **Ley 25.345:** art. 80 LCT reformado - entrega de certificados de trabajo y aportes; multa por incumplimiento (tres mejores salarios mensuales normales y habituales)
 - **Ley 26.727:** trabajo agrario
 - **Ley 22.250:** industria de la construcción
@@ -270,23 +264,26 @@ Condición para los agravantes de la Ley 24.013 (solo para hechos anteriores al 
 - Durante el período de prueba (8 meses vigente post-reforma, 3 meses para actos pre-30-dic-2023): 15 días
 - Omisión de preaviso: indemnización sustitutiva equivalente a las remuneraciones del período
 
-**Indemnizacion por antiguedad (art. 245 LCT) - DOS regimenes segun fecha del acto extintivo:**
+**Indemnizacion por antiguedad (art. 245 LCT) - TRES regimenes segun fecha del acto extintivo:**
 
-*Regimen reformado (actos extintivos post-30-dic-2023 - VIGENTE):*
-- Base: mejor remuneracion mensual normal y habitual del ultimo ano (o tiempo menor) **excluyendo SAC, bonificaciones, y cualquier concepto de pago semestral o anual**
+*Regimen original (actos extintivos pre-30-dic-2023):*
+- Base: mejor remuneracion mensual normal y habitual del ultimo ano, **incluyendo SAC y conceptos semestrales/anuales proporcionales**
 - Multiplicador: un mes por ano de servicio o fraccion mayor a tres meses
 - Tope: tres veces el promedio de todas las remuneraciones previstas en el CCT aplicable [VERIFICAR CCT APLICABLE]
 - Minimo: no puede ser inferior a dos meses de la base de calculo (art. 245, ultimo parrafo)
 
-*Regimen original (actos extintivos pre-30-dic-2023):*
-- Base: mejor remuneracion mensual normal y habitual del ultimo ano, **incluyendo SAC y conceptos semestrales/anuales proporcionales**
-- Multiplicador, tope y minimo: identicos al regimen reformado
+*Regimen intermedio (actos extintivos 30-dic-2023 a 5-mar-2026 - DNU 70/2023 + Ley 27.742):*
+- Base: mejor remuneracion mensual normal y habitual del ultimo ano **excluyendo SAC, bonificaciones y cualquier concepto de pago semestral o anual**
+- Multiplicador, tope y minimo: identicos al regimen original
+
+*Regimen vigente (actos extintivos desde 6-mar-2026 - Ley 27.802, art. 51):*
+- Base: mejor remuneracion mensual normal y habitual del ultimo ano **excluyendo SAC, bonificaciones de pago semestral o anual, vacaciones no gozadas y horas extras**
+- Tope: tres veces el salario mensual promedio del CCT aplicable [VERIFICAR CCT APLICABLE]
+- Multiplicador y minimo: identicos a los regimenes anteriores
 
 Verificar siempre la fecha del acto extintivo antes de calcular la base del art. 245.
 
 Regla operativa: calcular siempre base y tope por separado. Doctrina "Vizzoti" (CSJN, 2004): si el tope reduce la base de cálculo en más del 33%, aplica el 67% de la mejor remuneración real como base mínima, sin necesidad de declaración de inconstitucionalidad caso a caso. Verificar la diferencia entre tope y mejor remuneración en toda liquidación donde el tope resulte inferior a la remuneración real.
-
-**Ejemplo de cálculo orientativo:** ver `argentina/ejemplos-laboral.md` para casos resueltos con checklist completo de rubros. Cargar ese archivo junto con este perfil en las instrucciones del Project.
 
 **Fondo de cese laboral / sistema de capitalizacion privada (alternativa al art. 245 LCT):**
 
@@ -359,7 +356,7 @@ Alertas específicas:
 
 #### Renuncia (art. 240 LCT)
 
-- Solo es válida por telegrama obrero o ante la autoridad administrativa laboral
+- Válida por telegrama obrero en formato físico o digital con validación de identidad, o ante la autoridad administrativa del trabajo (Ley 27.802)
 - No genera derecho a indemnización
 - Alertar siempre: verificar si fue libre y espontánea o si encubre un despido encubierto
 
@@ -387,7 +384,7 @@ Alertas específicas:
 
 **Consecuencia del despido durante el período de estabilidad:** indemnización ordinaria (arts. 232, 233 y 245 LCT) más una indemnización especial equivalente a un año de remuneraciones (art. 182 LCT).
 
-**Licencia por maternidad (art. 177 LCT):** 45 días antes del parto y 45 días después, prorrogables en 30 días adicionales antes o después. Durante la licencia, la trabajadora percibe la asignación por maternidad de ANSES, no salario.
+**Licencia por maternidad (art. 177 LCT, texto según Ley 27.742):** mínimo de 10 días antes del parto (antes 30) y 45 días después, con posibilidad de acumular hasta 90 días totales redistribuyendo el período previo. La protección alcanza a toda "persona gestante". Durante la licencia percibe la asignación por maternidad de ANSES, no salario.
 
 **Opción de la trabajadora al reintegrarse (art. 183 LCT):**
 - Reintegrarse en las mismas condiciones
@@ -438,7 +435,7 @@ Alertas específicas:
 
 ### Certificados de trabajo (art. 80 LCT / Ley 25.345)
 
-**Obligación del empleador:** entregar certificado de trabajo y constancia de los aportes y contribuciones al sistema de seguridad social dentro de los 30 días de extinguida la relación.
+**Obligación del empleador:** entregar certificado de trabajo y constancia de los aportes y contribuciones al sistema de seguridad social dentro de los 45 días hábiles de extinguida la relación, en formato físico, digital fehaciente, o mediante disponibilidad en ARCA (art. 80 LCT, texto según Ley 27.802, art. 25).
 
 **Multa por incumplimiento:** tres mejores remuneraciones mensuales, normales y habituales.
 
@@ -520,7 +517,7 @@ Alertas específicas:
 - El trabajador tiene la carga de probar la existencia de la relación laboral cuando el empleador la niega, y la prestación de horas extras
 
 **Presunciones procesales:**
-- Art. 55 LCT: la negativa injustificada del empleador a exhibir el libro del art. 52 o los recibos de sueldo hace presumir la veracidad de los dichos del trabajador
+- Art. 55 LCT: la negativa injustificada del empleador a exhibir el registro de ARCA (art. 52 LCT reformado), los recibos de sueldo u otra documentación laboral obligatoria hace presumir la veracidad de los dichos del trabajador
 - Art. 57 LCT: el silencio del empleador ante la intimación del trabajador constituye reconocimiento de los hechos intimados
 
 Alertas específicas:
