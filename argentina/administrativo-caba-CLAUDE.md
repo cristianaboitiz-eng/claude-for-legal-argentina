@@ -182,14 +182,14 @@ Verificar si la pretensión encuadra en la materia contencioso administrativa de
 ### Amparo CABA
 
 - **Norma:** art. 14 Constitución CABA + Ley N° 2145 CABA (amparo)
-- **Plazo:** 90 días desde que el afectado conoció o pudo conocer el acto lesivo (art. 6 Ley N° 2145 CABA)
+- **Plazo:** 90 días desde que el afectado conoció o pudo conocer el acto lesivo (art. 6 Ley N° 2145 CABA). La norma no califica si son días hábiles o corridos; la jurisprudencia de la Cámara CCAyT no tiene regla uniforme sobre el punto. No computar como "90 días hábiles judiciales" sin verificar el criterio de la sala actuante al momento del caso concreto.
 - **Legitimación activa:** amplia; incluye legitimación colectiva
 - **Subsidiariedad:** procede cuando no existe otro medio judicial más idóneo; el CCAyT tiene acción ordinaria más amplia
 - **Habeas data:** integrado en el régimen de la Ley N° 2145 CABA
 - **Competencia:** Juzgados CCAyT en primera instancia; Cámara CCAyT en alzada
 
 ```
-[ALERTA PLAZO FATAL - AMPARO CABA: art. 6 Ley N° 2145 CABA - 90 días hábiles judiciales desde que el acto fue conocido o debió conocerse - vencimiento: calcular]
+[ALERTA PLAZO FATAL - AMPARO CABA: art. 6 Ley N° 2145 CABA - 90 días desde que el acto fue conocido o debió conocerse - ADVERTENCIA: la norma no califica si son hábiles o corridos; jurisprudencia Cámara CCAyT sin regla uniforme - verificar interpretación aplicable al caso antes de computar - vencimiento: calcular]
 ```
 
 ---
@@ -231,7 +231,7 @@ Verificar si la pretensión encuadra en la materia contencioso administrativa de
 - **Reglamento:** Decreto N° 129/23 GCBA (reemplazó al Decreto N° 168/19 y al Decreto N° 74/21; modificado por Decreto N° 32/26 [art. 58 Anexo I + art. 3] y Decreto N° 72/26 [Anexos II a V]). Verificar texto consolidado en BAC antes de aplicar umbrales o cuadro de competencias.
 - **Plataforma de compras:** BAC (Buenos Aires Compras) - art. 83 Ley N° 2095. Acceso en: https://www.buenosairescompras.gob.ar/normativa.aspx
 - **Organismo rector:** Dirección General de Compras y Contrataciones GCBA
-- **Obra pública CABA:** Ley N° 13.064 nacional aplica supletoriamente; verificar si CABA tiene norma propia para el contrato específico.
+- **Obra pública CABA:** CABA tiene régimen propio de obra pública (Ley N° 13.512 CABA y normas complementarias). La Ley N° 13.064 nacional no aplica supletoriamente al GCBA; rige solo para obra pública nacional. Ante cualquier contrato de obra pública del GCBA, verificar la norma local vigente; no transpolar el régimen federal.
 - **Redeterminación de precios:** verificar si el pliego y el contrato específico prevén redeterminación y bajo qué régimen. CABA tiene criterio propio que puede diferir del Decreto N° 691/16 nacional.
 - **Impugnación de licitaciones:** los plazos para impugnar pliegos y preadjudicación están fijados en la Ley N° 2095 y en cada pliego. Verificar antes de analizar la admisibilidad de la impugnación.
 
@@ -294,7 +294,7 @@ Las reglas generales del CLAUDE.md argentino y del administrativo-CLAUDE.md naci
 
 **Actos administrativos GCBA:** no asumir el contenido de resoluciones, disposiciones, dictámenes de la PG o actos impugnados sin que el abogado los aporte. Usar:
 ```
-[VACIO PROBATORIO: texto del acto administrativo GCBA no aportado - aportar copia del acto impugnado con sello de notificación]
+[VACÍO PROBATORIO: texto del acto administrativo GCBA no aportado - aportar copia del acto impugnado con sello de notificación]
 ```
 
 **Plazos CCAyT:** no transpolar plazos del régimen federal. Usar:
@@ -304,7 +304,7 @@ Las reglas generales del CLAUDE.md argentino y del administrativo-CLAUDE.md naci
 
 **Dictámenes de Procuración General CABA:** no asumir su contenido sin material aportado. Usar:
 ```
-[VACIO PROBATORIO: dictamen de Procuración General CABA no aportado - aportar texto del dictamen si fue emitido en el expediente]
+[VACÍO PROBATORIO: dictamen de Procuración General CABA no aportado - aportar texto del dictamen si fue emitido en el expediente]
 ```
 
 ---
@@ -374,7 +374,7 @@ Verificar siempre:
 - Monto vigente del contrato para encuadrar el tipo de procedimiento (licitación pública / privada / contratación directa) según Ley N° 2095 y resolución vigente
 - Si la impugnación fue planteada en el plazo del pliego
 - Si el contrato prevé redeterminación de precios y bajo qué régimen
-- Si el contrato es de obra pública: verificar si aplica Ley N° 13.064 o norma CABA propia
+- Si el contrato es de obra pública: aplicar Ley N° 13.512 CABA y normas complementarias; la Ley N° 13.064 nacional no aplica al GCBA
 
 ---
 
