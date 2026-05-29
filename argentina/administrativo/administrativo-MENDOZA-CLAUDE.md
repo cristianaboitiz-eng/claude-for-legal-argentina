@@ -452,6 +452,10 @@ Antes de analizar cualquier otra cuestión, emitir:
 | CABA | 90 días | Hábiles judiciales | Ley 189 art. 7 |
 | Tucumán | 90 días | Hábiles judiciales | Ley 6205 art. 9 |
 | Federal (post-9-jul-2024) | 180 días | Hábiles judiciales | LNPA art. 25 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
 | Entre Ríos | 1 año | Corridos | Ley 7061 art. 19 |
 
 **Mendoza es el más breve en términos reales** porque los 30 días son corridos: fines de semana y feriados no se descuentan.

@@ -51,7 +51,11 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 
 **Estructura judicial:** [CONFIRMADO] primera instancia: dos Juzgados de Primera Instancia en lo Contencioso Administrativo (1.ª y 2.ª Nominación), con asiento en Salta Capital y jurisdicción en toda la Provincia. Alzada: Corte de Justicia de Salta como tribunal definitivo ordinario. Expediente digital desde 2022, según Acordada 13.665.
 
-**Competencia territorial en el interior:** [PENDIENTE] verificar si en cada departamento del interior provincial la jurisdicción corresponde a los mismos juzgados capitalinos o si existe competencia delegada. No debe asumirse, sin verificación previa, que el fuero capitalino tiene competencia exclusiva en todo el territorio.
+**[CONFIRMADO] Competencia territorial — fuero concentrado en Capital con ventanilla delegada:**
+
+La jurisdicción y competencia material exclusiva está radicada en los **Juzgados de Primera Instancia en lo Contencioso Administrativo de 1ª y 2ª Nominación** con asiento en Salta Capital (Ley 6569, art. 1). No existen juzgados contencioso administrativos en los distritos judiciales del interior (Orán, Tartagal, Metán, Joaquín V. González).
+
+**Excepción operativa — ventanilla delegada (art. 5 Ley 6569):** los administrados domiciliados en el interior pueden presentar la demanda ante el Juzgado Civil y Comercial del Distrito Judicial correspondiente a su domicilio, el cual actúa exclusivamente como receptor y remite de inmediato al juzgado contencioso capitalino sorteado. Con el expediente digital (Acordada 13.665), la presentación remota en la plataforma del Poder Judicial asigna la causa directamente a los dos juzgados capitalinos.
 
 **Primer paso obligatorio en toda consulta:** identificar si el acto es de un organismo provincial, municipal o federal antes de aplicar este perfil o el nacional.
 
@@ -82,6 +86,12 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 **Texto vigente:** Boletín Oficial de Salta (https://boletinoficialsalta.gob.ar) y SAIJ (https://www.saij.gob.ar). Ver la matriz de vigencia en la sección 2.18 para el estado de cada norma citada.
 
 **Articulado de referencia:** arts. 25 a 80 (acto administrativo), arts. 155 a 162 (plazos), arts. 177 a 188 (recursos), art. 81 (ejecutoriedad y suspensión). [A VERIFICAR] la numeración puede no coincidir con ediciones no oficiales; verificar contra el texto del Boletín Oficial de Salta o del portal del Poder Judicial de Salta.
+
+**[ALERTA NORMATIVA — CPP SALTA]** La **Ley 8520** (publicada 15/12/2025) sancionó un nuevo Código Procesal Penal de la Provincia de Salta que reemplazó o reordenó integralmente la anterior **Ley 7690**. Toda cita a artículos del rito penal basada en la Ley 7690 posterior a diciembre de 2025 puede tener numeración incorrecta. Si el caso concreto involucra el proceso penal provincial, auditar la Ley 8520 antes de citar artículo.
+
+```
+[VERIFICAR VIGENCIA: CPP Salta - Ley 8520 (15/12/2025) reemplazó a la Ley 7690 - toda cita al CPP debe verificarse contra el texto de la Ley 8520 - consultar Boletín Oficial de Salta]
+```
 
 ```
 [VERIFICAR VIGENCIA: Ley 5348 LPA Salta - consultar Boletín Oficial de Salta (https://boletinoficialsalta.gob.ar) para modificaciones posteriores al corte del Digesto (julio de 2015)]
@@ -152,7 +162,13 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 
 [CONFIRMADO] **Sin reforma análoga al Decreto 695/2024 nacional:** Salta no duplicó los plazos de recursos administrativos. El plazo de la revocatoria es de 10 días hábiles administrativos. No deben aplicarse los plazos federales reformados al régimen provincial.
 
-[A VERIFICAR] **Reclamo administrativo previo (Ley 5018):** Salta tiene un régimen específico de reclamo previo a la acción judicial (Ley 5018). Cuando aplica al caso concreto, es condición de admisibilidad conjunta con el agotamiento de la Ley 793; no es una alternativa. Verificar en cada caso si la pretensión encuadra en el ámbito de la Ley 5018.
+**[CONFIRMADO]** La Ley 5018 es condición de admisibilidad conjunta con el agotamiento de la Ley 793 para la pretensión resarcitoria extracontractual; no es alternativa sino acumulativa. Verificar en cada caso.
+
+**[CONFIRMADO] Excepciones al agotamiento — jurisprudencia de la Corte de Justicia de Salta (CJS):**
+
+1. **Nulidad absoluta y manifiesta:** el agotamiento cede cuando el acto adolece de un vicio de tal gravedad que configura una ilegalidad ostensible, tornando inútil el tránsito por la vía administrativa. (CJS, "García, Luis Ernesto c/ Provincia de Salta - Recurso Contencioso Administrativo", Tomo 142:955 [FALLO VERIFICADO POR EL USUARIO])
+
+2. **Inutilidad del agotamiento — comportamiento inequívoco:** el acceso directo se habilita cuando la conducta previa del órgano estatal demuestra de manera fehaciente que la decisión final será idéntica. (CJS, "Asociación de Empleados del Poder Judicial c/ Provincia de Salta", Tomo 198:411 [FALLO VERIFICADO POR EL USUARIO] — la CJS aplicó la doctrina porque el PE ya había fijado postura pública, categórica e irreversible mediante decretos generales previos)
 
 ```
 [ALERTA PLAZO FATAL: recurso de revocatoria - Ley 5348, art. 177 - 10 días hábiles administrativos desde la notificación - vencimiento: calcular]
@@ -355,15 +371,21 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 [CONFIRMADO] **Inaplicabilidad del CCCN como regla general:** la responsabilidad extracontractual del Estado provincial se rige por el derecho público local, no por el CCCN. No invocar los arts. 1757, 1741 ni otros del CCCN sin verificar previamente si la Corte de Justicia de Salta admite alguna aplicación.
 
-[PENDIENTE] **Régimen sustantivo:** principios generales del derecho administrativo y jurisprudencia de la Corte de Justicia de Salta. En el régimen federal, los elementos son: daño cierto, imputabilidad, nexo causal y falta de servicio. El régimen salteño puede coincidir o diferir; verificar qué elementos exige la Corte.
+**[CONFIRMADO] Elementos de la responsabilidad (jurisprudencia CJS):** los cuatro elementos exigidos de manera concurrente son:
+1. **Daño cierto:** acreditado en su existencia y cuantía.
+2. **Imputabilidad material:** la conducta lesiva proviene de un órgano o agente del Estado provincial en ejercicio de sus funciones.
+3. **Falta de servicio:** violación objetiva de la obligación de prestar el servicio de manera regular, medida bajo el estándar del art. 1112 del viejo Código Civil, integrado como principio general del derecho administrativo salteño.
+4. **Nexo causal adecuado:** directo e inmediato entre la falta de servicio y el perjuicio.
 
-[PENDIENTE] **Prescripción:** verificar el criterio de la Corte de Justicia de Salta. No asumir el plazo de tres años del art. 7 de la Ley 26.944 sin confirmación jurisprudencial local.
+**[CONFIRMADO] Prescripción:** tras el fallo plenario de la CSJN en "Filcrosa", la CJS alineó su doctrina: la prescripción es materia de derecho común delegada al Congreso Nacional. El plazo aplicable es el **art. 2561 CCCN — 3 años** para la indemnización de daños derivados de responsabilidad civil (aplicado por analogía a la responsabilidad del Estado provincial). No rige el plazo del art. 7 Ley 26.944 (que es para el Estado nacional).
 
-[PENDIENTE] **Lucro cesante en actividad lícita:** verificar si la Corte lo admite o lo excluye, tal como lo hace la Ley 26.944 en su art. 5.
+**[CONFIRMADO] Lucro cesante en actividad lícita:** a diferencia de la prohibición tajante del art. 5 Ley 26.944 federal, la **CJS lo admite excepcionalmente** (ej. expropiaciones indirectas, revocación de licencias por razones de oportunidad, mérito o conveniencia), siempre que el damnificado demuestre **certeza absoluta** de la ganancia frustrada, no una mera expectativa hipotética. La indemnización debe ser "justa e integral".
 
 [A VERIFICAR] **Competencia:** los Juzgados de Primera Instancia CA entienden en pretensiones resarcitorias contra la Provincia (Ley 6569, art. 2). Verificar si la pretensión resarcitoria debe plantearse conjunta o autónomamente con la pretensión anulatoria.
 
-[A VERIFICAR] **Reclamo administrativo previo:** verificar si la Ley 5018 exige reclamo previo para la pretensión resarcitoria.
+**[CONFIRMADO] Reclamo administrativo previo (Ley 5018):** la Ley 5018 establece el reclamo administrativo previo obligatorio antes de demandar judicialmente a la Provincia de Salta. Su ámbito operativo comprende la Administración Central, organismos descentralizados y entidades autárquicas provinciales.
+
+Para la pretensión resarcitoria pura (extracontractual) contra el Estado provincial, la jurisprudencia y doctrina locales asimilan la exigencia de la Ley 5018: la Fiscalía de Estado suele oponer la falta de reclamo previo como excepción de inadmisibilidad, salvo que se configure ritualismo inútil o urgencia que habilite vía excepcional. Verificar en cada caso si la pretensión encuadra en el ámbito de la Ley 5018 antes de iniciar la acción judicial.
 
 ```
 [INSERTAR FALLO VERIFICADO: Corte de Justicia de Salta - requisitos de la responsabilidad extracontractual del Estado provincial]
@@ -383,8 +405,8 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 **Estatutos sectoriales:**
 - Docentes: Ley 6830 [A VERIFICAR modificaciones posteriores a 2015].
-- Policía: [PENDIENTE] verificar la Ley Orgánica vigente.
-- Personal de salud: [PENDIENTE] verificar la norma sectorial vigente.
+- **Policía:** Ley N° 7742 (Ley Orgánica de la Policía de Salta, 2012; derogó la Ley 6192; reglamentada por Decreto 3540/12). Para el régimen específico del personal (ingresos, estabilidad, ascensos, régimen disciplinario): Ley N° 6193 (Ley del Personal Policial). [A VERIFICAR modificaciones posteriores a 2015]
+- **Personal de salud:** Ley N° 7678 (Estatuto de la Carrera Sanitaria para el Personal de la Salud Pública de Salta; comprende personal del Ministerio de Salud Pública y hospitales de autogestión; reglamentada por Decreto 3896/12). [A VERIFICAR modificaciones posteriores a 2015]
 - Personal municipal: [PENDIENTE] verificar el estatuto del municipio concreto.
 
 ```
@@ -393,18 +415,20 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 ### 2.17 Contratación pública Salta
 
-[CONFIRMADO en cuanto a la norma base; PENDIENTE en cuanto a montos] **Norma general:** Ley 8072 (Sistema de Contrataciones de la Provincia de Salta) y Decreto Reglamentario 1319/18 y modificatorias. Los umbrales para licitación pública, privada y contratación directa se actualizan por decreto o resolución; verificar en el Boletín Oficial de Salta antes de encuadrar el procedimiento.
+**[CONFIRMADO]** Norma general: **Ley 8072** (B.O. 15/01/2018, Sistema de Contrataciones de la Provincia de Salta) y Decreto Reglamentario 1319/18 y modificatorias. Los umbrales para licitación pública, privada y contratación directa se actualizan por decreto o resolución del PE; verificar el texto vigente en el Boletín Oficial de Salta antes de encuadrar el procedimiento.
 
-[PENDIENTE] **Organismo rector:** verificar la denominación actual y la normativa complementaria vigente.
+**[CONFIRMADO]** Honorarios de abogados: **Ley 8035** (B.O. 10/10/2017). Derogó expresamente el Decreto Ley 324/60 y el Decreto 1173/94. Toda liquidación de honorarios en causas ante el fuero salteño corre bajo este régimen.
 
-[PENDIENTE] **Plataforma de compras:** verificar el sistema electrónico de contrataciones vigente en Salta.
+**[CONFIRMADO] Organismo rector:** Secretaría de Contrataciones, dependiente del Ministerio de Economía y Servicios Públicos de la Provincia de Salta.
 
-[PENDIENTE] **Obra pública provincial:** verificar la ley provincial vigente. La Ley 13.064 nacional no aplica supletoriamente salvo remisión contractual expresa.
+**[CONFIRMADO] Plataforma de compras:** Portal de Compras y Contrataciones de la Provincia de Salta — https://compras.salta.gob.ar — centraliza pliegos y adjudicaciones.
 
-[PENDIENTE] **Redeterminación de precios:** verificar si la Ley 8072 o los pliegos del contrato concreto prevén redeterminación de precios y bajo qué régimen. No asumir equivalencia con el Decreto 691/16 nacional.
+**[CONFIRMADO] Obra pública provincial:** **Ley 6838** (régimen específico de contrataciones de obra pública, que sobrevivió a la sanción de la Ley 8072 para este rubro) + **Decreto Reglamentario 1448/1996**. La Ley 13.064 nacional queda totalmente excluida del ámbito provincial salteño.
+
+**[CONFIRMADO] Redeterminación de precios:** régimen propio regulado por el **Decreto 1170/2021** (que reemplazó las fórmulas del Decreto 47/03). Establece redeterminación para contratos de obra pública y servicios cuando los costos de los factores principales muestran variación **superior al 5 %**. El gatillo es automático al superar ese piso. Difiere del esquema federal (Decreto 691/16); no aplicar equivalencia entre ambos regímenes.
 
 ```
-[VERIFICAR VIGENCIA: Ley 8072 Salta + Decreto 1319/18 - montos actualizados por resolución - consultar Boletín Oficial de Salta antes de encuadrar el procedimiento]
+[VERIFICAR VIGENCIA: Ley 8072 Salta (15/01/2018) + Decreto 1319/18 - montos UC actualizados por resolución - consultar Boletín Oficial de Salta antes de encuadrar el procedimiento]
 ```
 
 ### 2.18 Tabla de responsables procesales por instancia
@@ -456,6 +480,14 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 | Salta | **30 días hábiles judiciales** | Ley 793, art. 12 |
 | CABA (CCAyT) | 90 días hábiles judiciales | Ley 189 CABA, art. 7 |
 | PBA | 90 días hábiles judiciales | Ley 12.008 PBA |
+| Córdoba | 30 días | Hábiles judiciales | Ley 7182 art. 8 |
+| Mendoza | 30 días | Corridos | Ley 3918 art. 20 |
+| Santa Fe | 30 días | A verificar | Ley 11.330 art. 9 |
+| Entre Ríos | 1 año | Corridos | Ley 7061 art. 19 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
 | Federal (actos post-9-jul-2024) | 180 días hábiles judiciales | LNPA, art. 25 (modificado por Ley 27.742) |
 | Federal (actos pre-9-jul-2024) | 90 días hábiles judiciales | LNPA, art. 25 (texto anterior) |
 
@@ -501,7 +533,7 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 ### Checklist: empleo público
 
-1. Encuadre: Ley 5546 o estatuto sectorial (Ley 6830 para docentes; Policía y salud: [PENDIENTE]).
+1. Encuadre: Ley 5546 (general) o estatuto sectorial: Ley 6830 (docentes) / Ley 7742 + Ley 6193 (Policía) / Ley 7678 (personal de salud) / estatuto municipal (verificar por municipio).
 2. Situación de revista: planta permanente / no permanente / contratado / transitorio.
 3. ¿Hubo sumario con garantías de debido proceso? (Decreto 2734/2007: notificación de cargos, vista, descargo, prueba.)
 4. ¿La cesantía o exoneración encuadra en alguna causal taxativa del estatuto?
@@ -511,7 +543,7 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 ### Checklist: contratación pública
 
-1. Verificar los montos vigentes (Ley 8072, Decreto 1319/18 y actualizaciones) [PENDIENTE: consultar Boletín Oficial de Salta].
+1. Verificar los montos vigentes de la UC (Ley 8072, Decreto 1319/18 y actualizaciones) — consultar https://www.boletinoficialsalta.gob.ar o el Portal de Compras https://compras.salta.gob.ar.
 2. ¿La impugnación fue planteada en el plazo del pliego?
 3. ¿El contrato prevé redeterminación de precios? ¿Bajo qué régimen?
 4. Para obra pública: verificar la ley provincial, no la Ley 13.064 nacional.
@@ -525,8 +557,8 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 - **Poder Judicial de Salta (jurisprudencia, normativa, expediente digital):** https://www.justiciasalta.gov.ar
 - **SAIJ:** https://www.saij.gob.ar - texto de normas; confirmar siempre contra el Boletín Oficial de Salta.
 - **Portal del Empleado Público Salta:** https://empleopublico.salta.gob.ar
-- **Tribunal de Cuentas de Salta:** [PENDIENTE: verificar URL vigente]
-- **IPSAS:** [PENDIENTE: verificar URL vigente]
+- **Auditoría General de la Provincia de Salta (AGPS):** https://agps.salta.gob.ar (el control externo posterior de la hacienda pública provincial corresponde a la AGPS por Ley N° 7103; Salta no tiene un Tribunal de Cuentas provincial). Para el Tribunal de Cuentas de la Municipalidad de Salta Capital: https://tcm.tribunal.municipalidadsalta.gob.ar
+- **IPSS (Instituto Provincial de Salud de Salta):** https://www.ipssalta.gov.ar (obra social provincial de los agentes públicos; las siglas locales son IPSS, no IPSAS)
 
 ---
 
@@ -574,7 +606,16 @@ Las reglas generales del CLAUDE.md argentino y del administrativo-CLAUDE.md naci
 | Decreto Ley 1178/96 | Escalafón general | [A VERIFICAR] verificar vigencia y posibles reformas | Boletín Oficial de Salta |
 | Decreto 2734/2007 | Investigaciones administrativas | [CONFIRMADO al momento de incorporación al Digesto; A VERIFICAR modificaciones post-2015] | Boletín Oficial de Salta |
 | Ley 6830 | Estatuto docente | [A VERIFICAR post-2015] | Boletín Oficial de Salta |
-| Ley 8072 | Contrataciones | [CONFIRMADO en cuanto a la existencia de la norma; PENDIENTE en cuanto a montos vigentes] | Boletín Oficial de Salta |
+| Ley 8072 | Sistema de Contrataciones del Estado (B.O. 15/01/2018) | [CONFIRMADO vigente] montos UC a verificar por decreto — organismo rector: Secretaría de Contrataciones — plataforma: compras.salta.gob.ar | Boletín Oficial de Salta |
+| Ley 6838 + Decreto 1448/96 | Contrataciones de Obra Pública provincial | [CONFIRMADO vigente] Ley 13.064 nacional excluida | Boletín Oficial de Salta |
+| Decreto 1170/2021 | Redeterminación de precios (reemplazó Decreto 47/03) | [CONFIRMADO vigente] gatillo 5 % variación de costos | Boletín Oficial de Salta |
+| Ley 7742 + Ley 6193 | Policía (orgánica + personal) | [A VERIFICAR modificaciones post-2015] | Boletín Oficial de Salta |
+| Ley 7678 | Carrera Sanitaria | [A VERIFICAR modificaciones post-2015] | Boletín Oficial de Salta |
+| Ley 7103 | Auditoría General (AGPS) — reemplaza al Tribunal de Cuentas provincial | [CONFIRMADO] | Boletín Oficial de Salta |
+| Ley 8520 | Nuevo CPP Salta (reemplaza Ley 7690) | [CONFIRMADO vigente desde 15/12/2025 — A VERIFICAR numeración de artículos] | Boletín Oficial de Salta |
+| Ley 5233 (CPCC) | Código Procesal Civil y Comercial | [CONFIRMADO vigente con modificaciones: Ley 8498 ago 2025 art. 303; Ley 8189 art. 711 bis; Ley 8119 art. 692 bis] | Boletín Oficial de Salta |
+| Ley 8072 | Sistema de Contrataciones del Estado | [CONFIRMADO vigente desde 15/01/2018 — montos UC a verificar por decreto] | Boletín Oficial de Salta |
+| Ley 8035 | Arancel de Honorarios de Abogados | [CONFIRMADO vigente desde 10/10/2017 — derogó D.Ley 324/60 y Decreto 1173/94] | Boletín Oficial de Salta |
 | Decreto 1319/18 | Reglamento de la Ley 8072 | [A VERIFICAR] verificar modificaciones; los montos se actualizan por resolución | Boletín Oficial de Salta |
 | Constitución de Salta 2003 | Arts. 87 y 153, ap. III | [CONFIRMADO] | Texto oficial |
 

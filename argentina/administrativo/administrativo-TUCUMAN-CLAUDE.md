@@ -169,6 +169,10 @@ Una vez vencidos los plazos para interponer recursos administrativos, se pierde 
 | PBA | 90 días hábiles judiciales | Ley 12.008 art. 18 |
 | CABA | 90 días hábiles judiciales | Ley 189 art. 7 |
 | Federal (post-9-jul-2024) | 180 días hábiles judiciales | LNPA art. 25 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
 | Córdoba | 30 días hábiles judiciales | Ley 7182 art. 8 |
 | Santa Fe | 30 días (verificar naturaleza) | Ley 11.330 art. 9 |
 | Mendoza | 30 días corridos | Ley 3918 art. 20 |
@@ -181,10 +185,14 @@ Una vez vencidos los plazos para interponer recursos administrativos, se pierde 
 - **Juzgados en lo Contencioso Administrativo:** creados por Ley 8970 (con vigencia especial: "a partir de la puesta en funcionamiento de los Juzgados de Primera Instancia en el Fuero Contencioso Administrativo"). La Ley 6238 (Ley Orgánica del Poder Judicial, mod. por Ley 9712, B.O. 12/10/2023) los regula en su Cap. VIII, arts. 69 y ss. Asiento: Centro Judicial Capital (San Miguel de Tucumán) principalmente.
 - **Competencia material (art. 69 Ley 6238):** causas en que el acto o hecho jurídico constitutivo de la acción sea de naturaleza administrativa o tributaria. **Excepciones:** cobro de tributos y sanciones pecuniarias (vía apremio); acciones contra decisiones de la Inspección General de Personas Jurídicas; y otras previstas en la ley.
 
-**ALERTA ESTADO DEL FUERO:** la Ley 8970 previó la creación de los Juzgados CA con vigencia especial condicionada a su puesta en funcionamiento. Al momento de este perfil (mayo 2026), verificar si los juzgados están efectivamente en funcionamiento y cuántos existen. Antes de radicar, consultar el portal del Poder Judicial de Tucumán (https://www.justucuman.gov.ar) para confirmar el estado actual del fuero.
+**[CONFIRMADO] Estado operativo del fuero (mayo 2026):**
+
+- **Centro Judicial Capital (San Miguel de Tucumán):** 3 Juzgados de Primera Instancia CA operativos (Iª, IIª y IIIª Nominación). Alzada: Cámara en lo Contencioso Administrativo con 3 Salas, plenamente operativa.
+- **Centro Judicial Concepción:** 1 Juzgado de Primera Instancia CA operativo. Alzada transitoria: Cámara de Apelaciones en lo Civil, Comercial, Común y del Trabajo de Concepción (conexidad material transitoria hasta la total autonomía del fuero en esa jurisdicción).
+- La implementación fue progresiva y sujeta a partidas presupuestarias y concursos del Consejo de la Magistratura. La estructura descripta absorbe la totalidad de la matrícula litigiosa activa.
 
 ```
-[VERIFICAR ESTADO DEL FUERO: Juzgados en lo Contencioso Administrativo Tucumán - Ley 8970 + Ley 6238 (mod. Ley 9712) - confirmar en https://www.justucuman.gov.ar si los juzgados de primera instancia están en funcionamiento antes de radicar]
+[VERIFICAR NOMINACIÓN: identificar la nominación del Juzgado CA (Iª, IIª o IIIª) competente según el turno y circunscripción antes de radicar]
 ```
 
 **Alzada:**
@@ -258,14 +266,14 @@ Una vez vencidos los plazos para interponer recursos administrativos, se pierde 
 - **Proceso sumario de impugnación:** verificar si el Código Procesal Administrativo (Ley 6205) prevé un proceso sumario específico de 10 días para impugnar sanciones a empleados públicos (art. 9 Ley 6205).
 - **Estatutos sectoriales principales:**
   - Docentes: Ley 7673 (Estatuto del Docente Provincial de Tucumán) y modificatorias
-  - Policía: Ley 5598 (Ley Orgánica de la Policía de Tucumán) y modificatorias
-  - Personal de salud: SIPROSA (Sistema Provincial de Salud); verificar norma sectorial vigente
+  - **Policía (personal):** Ley N° 3823 (Ley del Personal Policial de Tucumán) y modificatorias. [A VERIFICAR: verificar si Ley 5598 es la Ley Orgánica complementaria o si la Ley 3823 es la vigente para el personal — confirmar en Boletín Oficial de Tucumán]
+  - **Policía (orgánica):** Ley N° 3656 (Ley Orgánica de la Policía de Tucumán) y modificatorias
+  - **Personal de salud:** Ley N° 5908 (Estatuto de la Carrera Sanitaria Provincial — SIPROSA). Regula ingreso por concurso, agrupaciones por complejidad asistencial, licencias por insalubridad y escalafón salarial diferenciado
   - Personal municipal: verificar si el municipio tiene estatuto propio o remite a la Ley 5473 supletoriamente
-  - [COMPLETAR: otros estatutos sectoriales según las áreas de práctica habituales]
 - **APUNT (Administración Provincial de Urbanismo de Tucumán):** ente autárquico; sus resoluciones son impugnables ante el fuero CA.
 
 ```
-[VERIFICAR ESTATUTO APLICABLE TUCUMÁN: Ley 5473 general o estatuto sectorial según el organismo - docentes: Ley 7673 / policial: Ley 5598 - dictamen Fiscalía de Estado obligatorio en nombramientos]
+[VERIFICAR VIGENCIA ESTATUTOS SECTORIALES TUCUMÁN: Ley 3823 (personal policial) / Ley 3656 (orgánica Policía) / Ley 5908 (carrera sanitaria SIPROSA) - confirmar en Boletín Oficial Tucumán. Dictamen Fiscalía de Estado obligatorio en nombramientos (art. 6 Ley 5473)]
 ```
 
 ### Contratación pública Tucumán
@@ -315,7 +323,7 @@ Una vez vencidos los plazos para interponer recursos administrativos, se pierde 
 
 ### Normas de vigencia variable a verificar en cada consulta
 
-- **Estado del fuero (Juzgados CA):** verificar en cada caso si los Juzgados en lo Contencioso Administrativo están en funcionamiento y cuántos hay, antes de radicar (Ley 8970, vigencia especial condicionada).
+- **Estado del fuero (Juzgados CA):** [CONFIRMADO] operativos — 3 Juzgados CA en Capital (Iª, IIª, IIIª Nom.) + 1 en Concepción. Identificar nominación antes de radicar.
 - **Montos de contratación pública (Ley 7394):** se actualizan por resolución. Verificar antes de encuadrar el procedimiento.
 - **Escala salarial empleo público:** se modifica por paritarias. Verificar resolución de homologación vigente.
 - **Acordadas de la CSJ Tucumán:** pueden modificar aspectos procesales y de competencia. Verificar acordadas vigentes en la materia específica.
@@ -335,7 +343,7 @@ Una vez vencidos los plazos para interponer recursos administrativos, se pierde 
 | Recursos jerárquicos resueltos por el PE (sede administrativa) | Fiscalía de Estado (dictamen preceptivo en los supuestos de la Ley 5473 art. 6 y otros) | Ley 4537 + Ley 5473 art. 6 |
 | Notificaciones a la Fiscalía de Estado | En su despacho oficial (https://www.fiscaliatucuman.gob.ar) | Praxis del fuero |
 
-**Nota sobre el fuero en transición:** mientras los Juzgados CA de primera instancia (Ley 8970) no estén en pleno funcionamiento, verificar si la causa se radica en los Juzgados CA ya operativos o si alguna materia sigue tramitando ante la Cámara CA directamente. Consultar el estado actual en https://www.justucuman.gov.ar antes de radicar.
+**Estado actual del fuero:** los Juzgados CA de primera instancia están operativos en Capital (3 juzgados) y en Concepción (1 juzgado). Identificar la nominación y circunscripción correspondiente antes de radicar.
 
 ```
 [VERIFICAR REPRESENTACIÓN PROCESAL TUCUMÁN: Fiscalía de Estado como representante del Estado en todas las instancias - notificaciones en despacho oficial - verificar si los Juzgados CA de primera instancia están operativos antes de determinar la instancia de radicación]
@@ -413,7 +421,7 @@ Aplicar Ley 4537 arts. 44-68. En cada recurso verificar:
 3. Determinar el tipo de proceso: ordinario (90 días) / sumario (10 días) / recurso especial (30 días).
 4. Verificar si el caso corresponde a los arts. 10/11/13 Ley 6205 (sin plazo de caducidad).
 5. Verificar que el objeto de la acción no supere lo planteado en sede administrativa (art. 12 Ley 6205).
-6. **Verificar el estado operativo del fuero antes de radicar** (Ley 8970 - vigencia condicionada).
+6. Identificar la nominación del Juzgado CA competente (Capital: Iª, IIª o IIIª Nom.; Concepción: 1 juzgado).
 7. En materia tributaria: verificar pago previo si aplica.
 
 ### Checklist: responsabilidad del Estado Tucumán
@@ -429,7 +437,7 @@ Aplicar Ley 4537 arts. 44-68. En cada recurso verificar:
 
 ### Checklist: empleo público Tucumán
 
-1. Identificar estatuto aplicable: Ley 5473 (general) o sectorial (Ley 7673 docentes / Ley 5598 policial / SIPROSA / municipal).
+1. Identificar estatuto aplicable: Ley 5473 (general) o sectorial: Ley 7673 (docentes) / Ley 3823 + Ley 3656 (Policía: personal + orgánica) / Ley 5908 (personal de salud - SIPROSA) / estatuto municipal del organismo concreto.
 2. Situación de revista del agente.
 3. ¿El nombramiento contó con dictamen de la Fiscalía de Estado? (art. 6 Ley 5473 - su omisión nulifica la designación).
 4. ¿Hubo sumario con garantías de debido proceso?
@@ -462,7 +470,7 @@ Antes de analizar cualquier otra cuestión, emitir:
 
 Antes de radicar cualquier acción ante el fuero contencioso administrativo de Tucumán:
 ```
-[VERIFICAR ESTADO DEL FUERO: Juzgados en lo Contencioso Administrativo Tucumán - Ley 8970 + Ley 6238 (mod. Ley 9712, B.O. 2023/10/12) - confirmar en https://www.justucuman.gov.ar si los juzgados de primera instancia están en funcionamiento - determinar nominación y centro judicial]
+[CONFIRMAR NOMINACIÓN: Juzgados CA Tucumán operativos - Capital: Iª, IIª, IIIª Nom. / Concepción: 1 juzgado - identificar nominación competente antes de radicar]
 ```
 
 ---

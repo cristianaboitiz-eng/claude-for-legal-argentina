@@ -131,7 +131,25 @@ El art. 7 del Decreto N° 1510/97 establece los elementos esenciales del acto ad
 [ALERTA PLAZO FATAL: art. 7 CCAyT (Ley N° 189 CABA) - 90 días hábiles judiciales - desde notificación fehaciente del acto que agota la vía o desde que debió conocerse - vencimiento: calcular]
 ```
 
-**Diferencia crítica con el régimen federal:** el plazo federal (art. 25 LNPA) es de 180 días hábiles judiciales para actos post-9-jul-2024. El plazo CABA es de 90 días hábiles judiciales. No aplicar el plazo federal a actos del GCBA.
+**Diferencia crítica con otros regímenes:**
+
+| Régimen | Plazo | Tipo | Norma |
+|---------|-------|------|-------|
+| **CABA** | **90 días** | Hábiles judiciales | Ley 189 art. 7 |
+| PBA | 90 días | Hábiles judiciales | Ley 12.008 art. 18 |
+| Tucumán | 90 días | Hábiles judiciales | Ley 6205 art. 9 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| Córdoba | 30 días | Hábiles judiciales | Ley 7182 art. 8 |
+| Salta | 30 días | Hábiles judiciales | Ley 793 art. 12 |
+| Santa Fe | 30 días | A verificar | Ley 11.330 art. 9 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
+| Mendoza | 30 días | Corridos | Ley 3918 art. 20 |
+| Entre Ríos | 1 año | Corridos | Ley 7061 art. 19 |
+| Federal (post-9-jul-2024) | 180 días | Hábiles judiciales | LNPA art. 25 |
+
+No aplicar el plazo federal a actos del GCBA.
 
 **Supuestos especiales:** el CCAyT puede prever plazos distintos para pretensiones específicas (ej. materia tributaria CABA, habilitaciones, sanciones). La Cámara CCAyT tiene jurisprudencia sobre el inicio del cómputo según el tipo de acto - en particular, cuándo comienza a correr ante actos de ejecución continuada, actos complejos o notificaciones defectuosas. En esos supuestos, el plazo de 90 días hábiles judiciales sigue siendo la regla; lo que varía es el momento de inicio del cómputo. Aportar el fallo aplicable cuando el caso no encuadre en el supuesto estándar de notificación fehaciente de acto definitivo.
 

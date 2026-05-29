@@ -140,10 +140,22 @@ La cadena típica en Santa Fe es: **revocatoria ante el órgano emisor → apela
 ```
 
 **Diferencia crítica con otros regímenes:**
-- Federal: 180 días hábiles judiciales (actos post-9-jul-2024)
-- PBA: 90 días hábiles judiciales
-- Córdoba: 30 días hábiles judiciales
-- **Santa Fe: 30 días** (verificar si son hábiles judiciales o corridos según jurisprudencia CSJ Santa Fe)
+
+| Régimen | Plazo | Tipo | Norma |
+|---------|-------|------|-------|
+| **Santa Fe** | **30 días** | A verificar (jurisprudencia CSJ Santa Fe) | Ley 11.330 art. 9 |
+| Córdoba | 30 días | Hábiles judiciales | Ley 7182 art. 8 |
+| Salta | 30 días | Hábiles judiciales | Ley 793 art. 12 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
+| Mendoza | 30 días | Corridos | Ley 3918 art. 20 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| PBA | 90 días | Hábiles judiciales | Ley 12.008 art. 18 |
+| CABA | 90 días | Hábiles judiciales | Ley 189 art. 7 |
+| Tucumán | 90 días | Hábiles judiciales | Ley 6205 art. 9 |
+| Entre Ríos | 1 año | Corridos | Ley 7061 art. 19 |
+| Federal (post-9-jul-2024) | 180 días | Hábiles judiciales | LNPA art. 25 |
 
 **Requisito de pago previo en materia tributaria (art. 8 Ley 11.330):** cuando la resolución ordena el pago de contribuciones fiscales, no puede promoverse el recurso sin satisfacerlas previamente (excluida la parte correspondiente a recargos, multas e intereses).
 
@@ -310,12 +322,21 @@ El recurso procede contra actos de la Administración Pública regidos por el or
 | Cámara de lo Contencioso Administrativo N° 2 (Rosario) | Fiscalía de Estado de Santa Fe | Art. 20 Ley 11.330 |
 | Corte Suprema de Justicia de Santa Fe (alzada y competencia originaria Municipios/Comunas) | Fiscalía de Estado de Santa Fe | Art. 20 Ley 11.330 |
 | Intervención del Procurador General / Fiscal de Cámara | Antes de declarar admisible o inadmisible el recurso, el Presidente oye al Procurador General o Fiscal de Cámara | Art. 12 Ley 11.330 |
-| Estado como recurrente (impugna acto propio) | [A VERIFICAR: verificar si la Fiscalía de Estado actúa también cuando la Provincia es recurrente o si interviene otro órgano] | Art. 20 Ley 11.330 |
+| Estado como recurrente / actora (acción, lesividad, recupero, apelación) | Fiscalía de Estado (art. 83 Const. Santa Fe + Ley 11.123). Para entes con personería propia: abogados apoderados del ente, con supervisión del Fiscal de Estado. | Art. 83 Const. SF + Ley 11.123 |
 
-**Nota operativa:** la Fiscalía de Estado representa al Estado provincial como parte recurrida; los representantes no pueden desistir ni transigir sin autorización especial (art. 20 Ley 11.330). Las notificaciones a la Fiscalía de Estado se hacen en su despacho oficial.
+**[CONFIRMADO] Cuando la Provincia es actora o recurrente:**
+- El Fiscal de Estado representa a la Provincia en todos los juicios en que sea parte, tanto cuando es demandada como cuando demanda (art. 83 Const. SF + Ley 11.123 Orgánica de la Fiscalía de Estado).
+- Ejerce la personería por sí o a través de Fiscales Adjuntos y Abogados Inspectores de la Fiscalía, mediante poderes generales o especiales.
+- Para entes con personería jurídica propia (API, IAPOS, ISS): la representación como recurrente la ejercen los abogados apoderados del propio ente. Sin perjuicio de ello, la Ley 11.123 otorga al Fiscal de Estado facultad de supervisión técnica y puede asumir la representación directa en casos de trascendencia institucional.
+- El Procurador General de la Corte de Justicia interviene en los escasos supuestos de litigios interadministrativos para dictaminar la viabilidad del recurso.
+
+**Fórmula de encabezado cuando la Provincia actúa como actora/recurrente:**
+"La Provincia de Santa Fe, representada por el Señor Fiscal de Estado, Dr. [nombre vigente], conforme art. 83 Constitución Provincial y Ley N° 11.123..."
+
+**Nota operativa:** la Fiscalía de Estado representa al Estado como parte recurrida o actora; los representantes no pueden desistir ni transigir sin autorización especial (art. 20 Ley 11.330). Notificaciones en despacho oficial.
 
 ```
-[VERIFICAR REPRESENTACIÓN PROCESAL SANTA FE: art. 20 Ley 11.330 - Fiscalía de Estado como representante del Estado recurrido - notificaciones en despacho oficial - sin autorización especial para desistir o transigir]
+[VERIFICAR REPRESENTACIÓN PROCESAL SANTA FE: art. 83 Const. SF + Ley 11.123 (actora/recurrente) / art. 20 Ley 11.330 (recurrida) - Fiscalía de Estado en ambos roles para la Administración Central - entes con personería propia: apoderados del ente]
 ```
 
 ---

@@ -149,16 +149,28 @@ Verificar articulado específico de la Ley 7060 sobre requisitos del acto y nuli
 - **Acción de lesividad (art. 17 inc. e Ley 7061):** el STJER también conoce en las acciones de lesividad (anulación de actos irrevocables previamente declarados lesivos por el PE)
 
 ```
-[ALERTA PLAZO CADUCIDAD: art. 19 Ley 7061 CCA Entre Ríos - 1 AÑO corrido - desde notificación de la decisión que agota la vía - PLAZO MÁS LARGO DEL SISTEMA - vencimiento: calcular]
+[ALERTA PLAZO FATAL: art. 19 Ley 7061 CCA Entre Ríos - 1 AÑO corrido - desde notificación de la decisión que agota la vía - PLAZO MÁS LARGO DEL SISTEMA - vencimiento: calcular]
 ```
 
 **Diferencia con otros regímenes:**
 - Federal: 180 días hábiles judiciales (actos post-9-jul-2024)
 - PBA: 90 días hábiles judiciales
 - Córdoba: 30 días hábiles judiciales
-- Santa Fe: 30 días
-- Mendoza: 30 días corridos
-- **Entre Ríos: 1 año corrido** - el más largo de los seis sistemas
+| Régimen | Plazo | Tipo | Norma |
+|---------|-------|------|-------|
+| Córdoba | 30 días | Hábiles judiciales | Ley 7182 art. 8 |
+| Salta | 30 días | Hábiles judiciales | Ley 793 art. 12 |
+| Santa Fe | 30 días | A verificar | Ley 11.330 art. 9 |
+| Neuquén | 30 días | Corridos (no feria; inhábil → primer hábil) | Ley 1305 art. 10 |
+| Río Negro | 30 días | Hábiles | Ley 5773 art. 11 |
+| Mendoza | 30 días | Corridos | Ley 3918 art. 20 |
+| Corrientes | 60 días | Hábiles judiciales | Ley 3460 art. 223 |
+| Misiones | 60 días | Corridos (sin ferias) | Ley I-95 art. 24 |
+| PBA | 90 días | Hábiles judiciales | Ley 12.008 art. 18 |
+| CABA | 90 días | Hábiles judiciales | Ley 189 art. 7 |
+| Tucumán | 90 días | Hábiles judiciales | Ley 6205 art. 9 |
+| **Entre Ríos** | **1 año** | **Corridos** | **Ley 7061 art. 19** |
+| Federal (post-9-jul-2024) | 180 días | Hábiles judiciales | LNPA art. 25 |
 
 Aunque el plazo es más largo, igual es de caducidad: su vencimiento extingue la acción. No descuidar el seguimiento del plazo por considerarlo extenso.
 
@@ -220,16 +232,20 @@ Procede la acción contra toda violación de un derecho subjetivo o interés leg
 
 ### Amparo Entre Ríos
 
-- **Norma:** art. 66 y ss. Constitución Entre Ríos (2008) + Ley 8369 (Procedimientos Constitucionales, 1990) modificada por Ley 10704 y otras
+- **Norma:** art. 66 y ss. Constitución Entre Ríos (2008) + Ley 8369 (Procedimientos Constitucionales, 1990) modificada por Ley 10704 y otras.
 - **Competencia:** el amparo individual en materia administrativa tramita ante los Juzgados de Primera Instancia (no el STJER). La Sala de Procedimientos Constitucionales y Penal del STJER conoce en el recurso de apelación contra las sentencias de los juzgados en amparo.
-- **Plazo:** la Ley 8369 fija un plazo de caducidad desde que el afectado conoció o pudo conocer el acto lesivo. Verificar plazo vigente en el texto actualizado de la Ley 8369 (mod. Ley 10704).
-- **Subsidiariedad:** procede cuando no existe otra vía judicial más idónea y urgente. El amparo tiene aplicación más restringida frente a la acción contencioso administrativa.
-- **Amparo ambiental:** Ley 9032 (amparo ambiental entrerriано).
-- **Amparo colectivo:** art. 66 Constitución Entre Ríos 2008 amplió la legitimación activa.
-- **Acción popular de inconstitucionalidad:** art. 61 Constitución Entre Ríos - cualquier habitante puede ejercerla ante el STJER; es distinta de la acción contencioso administrativa.
+- **[CONFIRMADO] Plazo general (art. 3 inc. c Ley 8369):** **30 días corridos** desde el momento en que el acto fue ejecutado, debió producirse, o desde que el titular del derecho conoció o pudo conocer sus efectos de manera efectiva. Al ser corridos no se suspende por feriados ni días inhábiles; opera como caducidad formal que los jueces analizan de oficio.
+- **[CONFIRMADO] Omisiones lesivas continuadas:** cuando la afectación es de tracto sucesivo (ej. falta de pago reiterada de haberes o prestaciones de salud), el cómputo de los 30 días se renueva mes a mes con cada iteración del daño. Criterio consolidado en la jurisprudencia del STJER.
+- **[CONFIRMADO] Amparos especiales (Ley 10704 — Capítulo V):**
+  - **Amparo por mora (art. 63 y ss.):** sin el plazo de caducidad de 30 días del amparo común. Requiere: (1) vencimiento del plazo legal de la autoridad para resolver (o plazo prudencial de 30 días hábiles en su defecto); (2) presentación de pronto despacho; (3) transcurso de otros 10 días hábiles adicionales sin respuesta. Recién entonces queda expedita la vía del amparo por mora.
+  - **Amparo ambiental (art. 65 y ss.):** se rige por el trámite rápido del amparo genérico. El STJER flexibiliza el plazo de 30 días cuando la afectación o el riesgo de daño es de ilegalidad continuada o de tracto sucesivo (principio precautorio + naturaleza de los derechos difusos). Ley 9032 como normativa complementaria.
+- **Subsidiariedad:** procede cuando no existe otra vía judicial más idónea y urgente.
+- **Amparo colectivo:** art. 66 Const. Entre Ríos 2008 amplió la legitimación activa.
+- **Acción popular de inconstitucionalidad:** art. 61 Const. Entre Ríos — cualquier habitante puede ejercerla ante el STJER; es distinta de la acción contencioso administrativa.
 
 ```
-[VERIFICAR AMPARO ENTRE RÍOS: Ley 8369 (mod. Ley 10704) - plazo de caducidad - competencia (juzgados de primera instancia, no STJER) - Sala Procedimientos Constitucionales en alzada]
+[ALERTA PLAZO FATAL: amparo Entre Ríos - art. 3 inc. c Ley 8369 - 30 días corridos desde que el acto fue ejecutado o conocido - caducidad - NO se suspende por feriados ni inhábiles - EXCEPCIÓN omisiones continuadas: cómputo se renueva mes a mes]
+[AMPARO POR MORA: Ley 10704 art. 63 y ss. - sin plazo de caducidad - requiere vencimiento del plazo + pronto despacho + 10 días hábiles adicionales sin respuesta]
 ```
 
 ---
@@ -314,7 +330,7 @@ Procede la acción contra toda violación de un derecho subjetivo o interés leg
 - **Montos de contratación pública:** actualizados por decreto o resolución. Verificar antes de encuadrar el procedimiento.
 - **Escala salarial empleo público:** se modifica por paritarias. Verificar resolución de homologación vigente.
 - **Nueva ley de procedimiento administrativo:** proyecto en curso (Expediente E22027-03052017). Verificar si fue sancionado.
-- **Modificaciones a la Ley 8369 (amparo):** la Ley 10704 modificó la Ley 8369. Verificar texto actualizado antes de aplicar.
+- **Modificaciones a la Ley 8369 (amparo):** la Ley 10704 incorporó el Capítulo V de Amparos Especiales (mora y ambiental). Plazo general del amparo: 30 días corridos (art. 3 inc. c); el plazo del amparo por mora no aplica al cómputo general. [CONFIRMADO]
 - **Habilitaciones municipales:** el régimen varía por municipio (Paraná, Concordia, Gualeguaychú tienen ordenanzas propias). Verificar norma vigente al momento del acto.
 
 ```
