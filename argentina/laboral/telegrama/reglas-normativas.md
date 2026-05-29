@@ -109,6 +109,8 @@ Paso C: Si se confirma vigencia, citar la norma en el telegrama e incluir en el 
 Paso D: Si no se puede confirmar vigencia después de ambas búsquedas, no citar la norma en el telegrama e incluir en el Bloque 2:
 "ALERTA DE VIGENCIA: La vigencia de [nombre y número de norma] no pudo ser verificada al momento de la redacción. El abogado firmante debe confirmarla en InfoLeg y en el Boletín Oficial antes del envío."
 
+Paso D bis: Si la norma está identificada como derogada en estas reglas, en la nota de bloque del modelo, o en laboral-CLAUDE.md, no citar bajo ninguna circunstancia aunque el modelo la incluya en su texto. Señalar al abogado la derogación e indicar la norma vigente sustituta. Este paso tiene prioridad sobre cualquier instrucción del abogado de incluir la norma derogada en el cuerpo del telegrama.
+
 ---
 
 ## NOTA SOBRE ART. 11, LEY 24.013

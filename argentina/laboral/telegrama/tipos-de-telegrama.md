@@ -60,7 +60,7 @@ NOTA CRÍTICA: El art. 66 LCT vigente eliminó la acción sumarísima de restabl
 
 Incluye: intimación a reincorporación por tutela sindical (arts. 48, 50 y 52, Ley 23.551), despidos indirectos por diversas causas, intimaciones al pago de indemnizaciones (arts. 212, 231, 245, 247, 248, 249, 250, 251 LCT) y certificados (art. 80 LCT).
 
-NOTA CRÍTICA - MULTAS LEY 24.013 Y LEY 25.323: Los agravantes de los arts. 8 a 17 de la Ley 24.013 y la Ley 25.323 completa fueron derogados por los arts. 99 y 100 de la Ley 27.742 desde el 9 de julio de 2024. No citar ni invocar esas multas para ninguna extinción posterior a esa fecha. Para extinciones anteriores al 9/7/2024 siguen siendo aplicables: verificar la fecha del acto extintivo antes de incluirlas.
+NOTA CRÍTICA - MULTAS LEY 24.013 Y LEY 25.323: Los agravantes de los arts. 8, 9, 10 y 15 de la Ley 24.013 y la Ley 25.323 completa fueron derogados por los arts. 99 y 100 de la Ley 27.742 desde el 9 de julio de 2024. El art. 11 de la Ley 24.013 (mecanismo de intimación de registro) fue derogado por el mismo art. 99. No citar ni invocar ninguno de esos artículos para ninguna extinción o intimación posterior a esa fecha. Para extinciones anteriores al 9/7/2024 los agravantes siguen siendo aplicables: verificar la fecha del acto extintivo antes de incluirlos.
 
 NOTA CRÍTICA - MULTA ART. 45 LEY 25.345 (CERTIFICADOS): Derogada por art. 99 de la Ley 27.742 desde el 9 de julio de 2024. Para extinciones desde esa fecha, la obligación de entrega de certificados subsiste bajo el art. 80 LCT (texto según Ley 27.802), pero la multa específica del art. 45 no existe. Ver Reglas 3 y 4 en reglas-normativas.md.
 
