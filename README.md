@@ -25,20 +25,20 @@ argentina/
   contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
   administrativo-CLAUDE.md          # Perfil derecho administrativo (federal)
   administrativo/                    # Perfiles jurisdiccionales (complementan al federal)
-    administrativo-caba-CLAUDE.md     # CABA (CCAyT)
-    administrativo-PBA-CLAUDE.md      # Buenos Aires (CPCA)
-    administrativo-CHUBUT-CLAUDE.md   # Chubut
-    administrativo-CÓRDOBA-CLAUDE.md  # Córdoba
-    administrativo-CORRIENTES-CLAUDE.md # Corrientes
-    administrativo-ENTRERIOS-CLAUDE.md  # Entre Ríos
-    administrativo-MENDOZA-CLAUDE.md  # Mendoza
-    administrativo-MISIONES-CLAUDE.md # Misiones
-    administrativo-NEUQUEN-CLAUDE.md  # Neuquén
-    administrativo-RIONEGRO-CLAUDE.md # Río Negro
-    administrativo-SALTA-CLAUDE.md    # Salta
-    administrativo-SANJUAN-CLAUDE.md  # San Juan
-    administrativo-SANTAFE-CLAUDE.md  # Santa Fe
-    administrativo-TUCUMAN-CLAUDE.md  # Tucumán
+    administrativo-CABA-CLAUDE.md      # CABA (CCAyT / TSJBA)
+    administrativo-PBA-CLAUDE.md       # Buenos Aires (Cámaras CA / SCBA)
+    administrativo-CHUBUT-CLAUDE.md    # Chubut (STJ - Sala CA)
+    administrativo-CÓRDOBA-CLAUDE.md   # Córdoba (TSJ - Sala CA)
+    administrativo-CORRIENTES-CLAUDE.md # Corrientes (STJ - pleno)
+    administrativo-ENTRERIOS-CLAUDE.md  # Entre Ríos (STJ - Sala N° 2 / Sala Constitucional y Electoral)
+    administrativo-MENDOZA-CLAUDE.md   # Mendoza (SCJ - Sala Primera)
+    administrativo-MISIONES-CLAUDE.md  # Misiones (STJ - pleno)
+    administrativo-NEUQUEN-CLAUDE.md   # Neuquén (TSJ - Sala Procesal Administrativa)
+    administrativo-RIONEGRO-CLAUDE.md  # Río Negro (STJ - última instancia)
+    administrativo-SALTA-CLAUDE.md     # Salta (Corte de Justicia - pleno)
+    administrativo-SANJUAN-CLAUDE.md   # San Juan (Corte de Justicia - Sala Segunda)
+    administrativo-SANTAFE-CLAUDE.md   # Santa Fe (CSJSF)
+    administrativo-TUCUMAN-CLAUDE.md   # Tucumán (CSJ - Sala CA)
     administrativo-_PROVINCIA_-CLAUDE.md # Template para nuevas provincias
   especialidades/
     medicina-legal-CLAUDE.md         # Pericia médica forense (penal / civil / seguridad social)
