@@ -109,7 +109,7 @@ Hay dos formas de instalarlo. El plan gratuito es suficiente para evaluar el sis
 |---|---|---|
 | Costo | $0 | u$s 20/mes (Pro) |
 | Activación de perfiles | Manual (copiar y pegar) | Automática según la rama del derecho del caso |
-| Actualizaciones del repo | Manual (git pull) | Automática |
+| Actualizaciones del repo | Automática (workflow diario incluido) | Automática (workflow diario incluido) |
 | Acceso a archivos locales | No | Sí (directo, sin copiar archivos) |
 | Tareas largas sin supervisión | No | Sí |
 | Capacidades normativas | Completas | Completas |
@@ -284,7 +284,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 |---|---|---|---|
 | `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `laboral/telegrama/` | DNU 70/2023, Ley 27.742, Ley 27.802, topes art. 245, tasas CNAT |
 | `administrativo-CLAUDE.md` | Derecho administrativo (federal) | - | Plazos de caducidad, contratación pública |
-| `administrativo-caba-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
+| `administrativo-CABA-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
 | `administrativo-PBA-CLAUDE.md` | Derecho administrativo PBA | `administrativo-CLAUDE.md` (base) | Plazos CPCA PBA, Ley 7647, contratación pública PBA |
 | `administrativo-SALTA-CLAUDE.md` | Derecho administrativo Salta | `administrativo-CLAUDE.md` (base) | Procedimiento administrativo Salta, fuero contencioso local |
 | `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
@@ -500,7 +500,11 @@ más inmediato en los marcadores que el sistema emite.
 La tabla de normas de alta volatilidad del `CHANGELOG.md` lista los datos con
 mayor frecuencia de cambio y la fecha de última verificación de cada uno.
 
+**Sincronización del fork con el repo original:**
 
+El repositorio incluye un workflow de GitHub Actions que sincroniza tu fork con el original de Anthropic todos los días a las 03:00 (hora Argentina), sin que tengas que hacer nada. Es un robot incluido en el repo: revisa si hubo cambios en el repo original y los incorpora a tu copia automáticamente. Tus archivos propios (carpeta `argentina/` y `legal.local.md`) nunca se pisan. El workflow corre gratis en todos los planes de GitHub, incluido el gratuito.
+
+Si preferís hacerlo a mano, GitHub te avisa cuando tu fork está desactualizado y podés sincronizar con un click desde el botón "Sync fork" en la página del repo.
 
 ---
 
